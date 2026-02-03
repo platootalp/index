@@ -64,6 +64,8 @@ https://www.coze.cn/
 
 https://github.com/crewAIInc/crewAI
 
+https://github.com/run-llama/llama_index
+
 https://github.com/openai/openai-agents-python
 
 https://github.com/google/adk-python
