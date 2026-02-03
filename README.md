@@ -20,6 +20,12 @@ https://github.com/VectifyAI/PageIndex
 
 https://github.com/infiniflow/ragflow
 
+### 文档处理
+
+https://github.com/opendatalab/MinerU
+
+https://github.com/Unstructured-IO/unstructured
+
 ## A2A
 
 https://github.com/a2aproject/A2A
@@ -29,6 +35,10 @@ https://github.com/a2aproject/A2A
 https://github.com/anthropics/skills
 
 https://github.com/ComposioHQ/awesome-claude-skills
+
+## Agent评估
+
+https://github.com/vibrantlabsai/ragas
 
 ## SDD
 
@@ -62,17 +72,21 @@ https://github.com/google/adk-python
 
 https://github.com/anomalyco/opencode
 
+https://github.com/google-gemini/gemini-cli
+
 ## GUI
 
 https://github.com/iOfficeAI/AionUi
 
-## Agent产品
+## 实用工具
 
 https://github.com/zai-org/Open-AutoGLM
 
 https://github.com/openclaw/openclaw
 
 https://github.com/home-assistant/core
+
+https://github.com/sansan0/TrendRadar
 
 ## 工程博客
 
