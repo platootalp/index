@@ -34,6 +34,8 @@ https://github.com/ashishpatel26/500-AI-Agents-Projects
 
 ### 2.1 Prompt
 
+https://www.promptingguide.ai/zh
+
 https://github.com/linshenkx/prompt-optimizer
 
 ### 2.2 RAG
@@ -78,9 +80,9 @@ https://github.com/ComposioHQ/awesome-claude-skills
 
 ### 3.1 开发框架
 
-https://github.com/crewAIInc/crewAI
-
 https://github.com/run-llama/llama_index
+
+https://github.com/crewAIInc/crewAI
 
 https://github.com/openai/openai-agents-python
 
@@ -94,13 +96,13 @@ https://github.com/huggingface/text-generation-inference
 
 https://github.com/anomalyco/opencode
 
-https://github.com/google-gemini/gemini-cli
-
 https://github.com/anthropics/claude-code
 
 https://github.com/obra/superpowers
 
 https://github.com/thedotmack/claude-mem
+
+https://github.com/google-gemini/gemini-cli
 
 ### 3.4 低代码平台
 
@@ -133,6 +135,8 @@ https://github.com/openclaw/openclaw
 https://github.com/home-assistant/core
 
 https://github.com/sansan0/TrendRadar
+
+https://www.vibekanban.com/docs
 
 ## 六、开发实践
 
