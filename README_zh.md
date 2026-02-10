@@ -18,6 +18,8 @@ https://github.com/ed-donner/agents
 
 https://github.com/liguodongiot/llm-action
 
+https://github.com/aishwaryanr/awesome-generative-ai-guide
+
 ### 1.2 书籍
 
 https://github.com/ginobefun/agentic-design-patterns-cn
@@ -76,6 +78,8 @@ https://github.com/anthropics/skills
 
 https://github.com/ComposioHQ/awesome-claude-skills
 
+https://github.com/sickn33/antigravity-awesome-skills
+
 ## 三、开发工具与框架
 
 ### 3.1 开发框架
@@ -98,9 +102,13 @@ https://github.com/anomalyco/opencode
 
 https://github.com/anthropics/claude-code
 
+https://github.com/affaan-m/everything-claude-code
+
 https://github.com/obra/superpowers
 
 https://github.com/thedotmack/claude-mem
+
+https://github.com/openai/codex
 
 https://github.com/google-gemini/gemini-cli
 
