@@ -86,6 +86,8 @@ https://github.com/ComposioHQ/awesome-claude-skills
 
 https://github.com/sickn33/antigravity-awesome-skills
 
+https://github.com/openai/skills
+
 https://skillsmp.com/zh
 
 https://skills.sh/
@@ -112,17 +114,21 @@ https://github.com/anomalyco/opencode
 
 https://github.com/anthropics/claude-code
 
-https://github.com/affaan-m/everything-claude-code
-
-https://github.com/obra/superpowers
-
-https://github.com/thedotmack/claude-mem
-
 https://github.com/openai/codex
 
 https://github.com/google-gemini/gemini-cli
 
+#### plugin
+
+https://github.com/obra/superpowers
+
+https://github.com/affaan-m/everything-claude-code
+
+https://github.com/thedotmack/claude-mem
+
 ### 3.4 低代码平台
+
+https://github.com/n8n-io/n8n
 
 https://docs.dify.ai/en/use-dify/getting-started/introduction
 
