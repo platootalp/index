@@ -66,7 +66,13 @@ https://github.com/mem0ai/mem0
 
 ### 2.4 协议
 
+#### A2A
+
 https://github.com/a2aproject/A2A
+
+#### ACP
+
+https://agentclientprotocol.com/get-started/introduction
 
 ### 2.5 DeepResearch
 
@@ -79,6 +85,10 @@ https://github.com/anthropics/skills
 https://github.com/ComposioHQ/awesome-claude-skills
 
 https://github.com/sickn33/antigravity-awesome-skills
+
+https://skillsmp.com/zh
+
+https://skills.sh/
 
 ## 三、开发工具与框架
 
@@ -126,9 +136,11 @@ https://github.com/vibrantlabsai/ragas
 
 ## 五、实用资源
 
-### 5.1 API平台
+### 5.1 开发者平台
 
 https://aistudio.google.com
+
+https://developers.openai.com
 
 ### 5.2 GUI工具
 
