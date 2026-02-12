@@ -6,6 +6,8 @@
 
 https://datawhalechina.github.io/hello-agents/#/
 
+https://github.com/patchy631/ai-engineering-hub
+
 https://github.com/mlabonne/llm-course
 
 https://datawhalechina.github.io/all-in-rag/#/
@@ -177,7 +179,6 @@ https://github.com/sansan0/TrendRadar
 https://www.vibekanban.com/docs
 
 ### 5.4 金融工具
-
 
 ## 六、开发实践
 
