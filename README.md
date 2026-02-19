@@ -134,11 +134,14 @@ https://github.com/google-gemini/gemini-cli
 
 #### plugin
 
+https://github.com/code-yeongyu/oh-my-opencode
+
 https://github.com/obra/superpowers
 
 https://github.com/affaan-m/everything-claude-code
 
 https://github.com/thedotmack/claude-mem
+
 
 ### 3.4 低代码平台
 
