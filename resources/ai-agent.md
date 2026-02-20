@@ -208,8 +208,8 @@
 | 4.0k | **agents** | Ed Donner 的 AI Agent 教程 | [🔗](https://github.com/ed-donner/agents) |
 | 1.8k | **AgentGuide** | AI Agent 开发指南 | [🔗](https://github.com/adongwanai/AgentGuide) |
 | 1.8k | **How-to-use-Transformers** | Transformers 库快速入门教程 | [🔗](https://github.com/jsksxs360/How-to-use-Transformers) |
-| - | **hello-agents** | Datawhale Agent 开发入门教程 | [🔗](https://datawhalechina.github.io/hello-agents/#/) |
-| - | **all-in-rag** | Datawhale RAG 技术栈教程 | [🔗](https://datawhalechina.github.io/all-in-rag/#/) |
+| 21.1k | **hello-agents** | Datawhale Agent 开发入门教程 | [🔗](https://github.com/datawhalechina/hello-agents) |
+| 4.0k | **all-in-rag** | Datawhale RAG 技术栈教程 | [🔗](https://github.com/datawhalechina/all-in-rag) |
 
 ### 3.2 书籍与笔记
 
@@ -303,7 +303,7 @@
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 33.1k | **claude-cookbooks** | Anthropic 官方 Cookbook | [🔗](https://github.com/anthropics/claude-cookbooks) |
-| - | **OpenAI Cookbook** | OpenAI Agents 专题 | [🔗](https://cookbook.openai.com/topic/agents) |
+| 71.5k | **openai-cookbook** | OpenAI 官方 Cookbook（含 Agents 专题） | [🔗](https://github.com/openai/openai-cookbook) |
 | - | **Anthropic Engineering** | Anthropic 工程博客 | [🔗](https://www.anthropic.com/engineering) |
 
 ### 6.2 SDD规范
