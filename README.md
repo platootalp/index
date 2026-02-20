@@ -80,9 +80,9 @@
 | 61.1k | **codex** | OpenAI 官方 Coding Agent | [🔗](https://github.com/openai/codex) |
 | 32.4k | **oh-my-opencode** | opencode 最佳增强工具 | [🔗](https://github.com/code-yeongyu/oh-my-opencode) |
 | 21.5k | **vibe-kanban** | 让 Claude Code/Codex 效率提升 10 倍 | [🔗](https://github.com/BloopAI/vibe-kanban) |
-| - | **claude-code-system-prompts** | Claude Code 系统提示词 | [🔗](https://github.com/Piebald-AI/claude-code-system-prompts) |
-| - | **superpowers** | Claude Code 增强插件 | [🔗](https://github.com/obra/superpowers) |
-| - | **everything-claude-code** | Claude Code 资源合集 | [🔗](https://github.com/affaan-m/everything-claude-code) |
+| 4.7k | **claude-code-system-prompts** | Claude Code 系统提示词 | [🔗](https://github.com/Piebald-AI/claude-code-system-prompts) |
+| 55.4k | **superpowers** | Claude Code 增强插件 | [🔗](https://github.com/obra/superpowers) |
+| 48.4k | **everything-claude-code** | Claude Code 资源合集 | [🔗](https://github.com/affaan-m/everything-claude-code) |
 
 ### 1.4 低代码平台
 
@@ -121,13 +121,13 @@
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 54.5k | **MinerU** | 开源文档解析工具 | [🔗](https://github.com/opendatalab/MinerU) |
-| - | **unstructured** | 非结构化数据处理 | [🔗](https://github.com/Unstructured-IO/unstructured) |
+| 14.0k | **unstructured** | 非结构化数据处理 | [🔗](https://github.com/Unstructured-IO/unstructured) |
 
 #### Vector-DB
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **milvus** | 开源向量数据库 | [🔗](https://github.com/milvus-io/milvus) |
+| 42.9k | **milvus** | 开源向量数据库 | [🔗](https://github.com/milvus-io/milvus) |
 
 ### 2.3 Memory
 
@@ -149,7 +149,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **A2A** | Agent 间通信协议 | [🔗](https://github.com/a2aproject/A2A) |
+| 22.0k | **A2A** | Agent 间通信协议 | [🔗](https://github.com/a2aproject/A2A) |
 
 #### ACP (Agent Client Protocol)
 
@@ -161,17 +161,17 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **DeepResearch** | 阿里 NLP 深度研究 | [🔗](https://github.com/Alibaba-NLP/DeepResearch) |
+| 18.2k | **DeepResearch** | 阿里 NLP 深度研究 | [🔗](https://github.com/Alibaba-NLP/DeepResearch) |
 
 ### 2.6 Skills
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **skills (anthropics)** | Anthropic Skills 官方 | [🔗](https://github.com/anthropics/skills) |
-| - | **awesome-claude-skills** | Claude Skills 精选 | [🔗](https://github.com/ComposioHQ/awesome-claude-skills) |
-| - | **antigravity-awesome-skills** | 更多 Skills 资源 | [🔗](https://github.com/sickn33/antigravity-awesome-skills) |
-| - | **skills (openai)** | OpenAI Skills 官方 | [🔗](https://github.com/openai/skills) |
-| - | **spec-kit** | GitHub SDD 规范 | [🔗](https://github.com/github/spec-kit) |
+| 72.0k | **skills (anthropics)** | Anthropic Skills 官方 | [🔗](https://github.com/anthropics/skills) |
+| 36.0k | **awesome-claude-skills** | Claude Skills 精选 | [🔗](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 13.1k | **antigravity-awesome-skills** | 更多 Skills 资源 | [🔗](https://github.com/sickn33/antigravity-awesome-skills) |
+| 9.0k | **skills (openai)** | OpenAI Skills 官方 | [🔗](https://github.com/openai/skills) |
+| 70.6k | **spec-kit** | GitHub SDD 规范 | [🔗](https://github.com/github/spec-kit) |
 | - | **skillsmp** | Skills 市场（中文） | [🔗](https://skillsmp.com/zh) |
 | - | **skills.sh** | Skills 市场 | [🔗](https://skills.sh/) |
 
@@ -196,21 +196,21 @@
 | 23.2k | **llm-universe** | 小白开发者的大模型应用开发教程 | [🔗](https://github.com/datawhalechina/llm-universe) |
 | - | **hello-agents** | Datawhale Agent 开发入门教程 | [🔗](https://datawhalechina.github.io/hello-agents/#/) |
 | - | **all-in-rag** | Datawhale RAG 技术栈教程 | [🔗](https://datawhalechina.github.io/all-in-rag/#/) |
-| - | **rag-from-scratch** | LangChain 官方 RAG 从零开始教程 | [🔗](https://github.com/langchain-ai/rag-from-scratch) |
-| - | **AgentGuide** | AI Agent 开发指南 | [🔗](https://github.com/adongwanai/AgentGuide) |
-| - | **agents** | Ed Donner 的 AI Agent 教程 | [🔗](https://github.com/ed-donner/agents) |
-| - | **How-to-use-Transformers** | Transformers 库快速入门教程 | [🔗](https://github.com/jsksxs360/How-to-use-Transformers) |
-| - | **awesome-generative-ai-guide** | 生成式 AI 学习资源大全 | [🔗](https://github.com/aishwaryanr/awesome-generative-ai-guide) |
+| 7.4k | **rag-from-scratch** | LangChain 官方 RAG 从零开始教程 | [🔗](https://github.com/langchain-ai/rag-from-scratch) |
+| 1.8k | **AgentGuide** | AI Agent 开发指南 | [🔗](https://github.com/adongwanai/AgentGuide) |
+| 4.0k | **agents** | Ed Donner 的 AI Agent 教程 | [🔗](https://github.com/ed-donner/agents) |
+| 1.8k | **How-to-use-Transformers** | Transformers 库快速入门教程 | [🔗](https://github.com/jsksxs360/How-to-use-Transformers) |
+| 24.8k | **awesome-generative-ai-guide** | 生成式 AI 学习资源大全 | [🔗](https://github.com/aishwaryanr/awesome-generative-ai-guide) |
 
 ### 3.2 书籍与笔记
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 36.2k | **Coursera-ML-AndrewNg-Notes** | 吴恩达机器学习课程笔记 | [🔗](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) |
-| - | **deeplearning_ai_books** | 吴恩达深度学习课程笔记 | [🔗](https://github.com/fengdu78/deeplearning_ai_books) |
-| - | **agentic-design-patterns-cn** | 《Agentic Design Patterns》中文版 | [🔗](https://github.com/ginobefun/agentic-design-patterns-cn) |
-| - | **agentic-design-patterns** | Agent 设计模式 | [🔗](https://github.com/xindoo/agentic-design-patterns) |
-| - | **nndl.github.io** | 《神经网络与深度学习》邱锡鹏 | [🔗](https://github.com/nndl/nndl.github.io) |
+| 20.3k | **deeplearning_ai_books** | 吴恩达深度学习课程笔记 | [🔗](https://github.com/fengdu78/deeplearning_ai_books) |
+| 7.4k | **agentic-design-patterns-cn** | 《Agentic Design Patterns》中文版 | [🔗](https://github.com/ginobefun/agentic-design-patterns-cn) |
+| 1.8k | **agentic-design-patterns** | Agent 设计模式 | [🔗](https://github.com/xindoo/agentic-design-patterns) |
+| 18.7k | **nndl.github.io** | 《神经网络与深度学习》邱锡鹏 | [🔗](https://github.com/nndl/nndl.github.io) |
 
 ### 3.3 学习项目
 
@@ -229,7 +229,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **ragas** | Agent/RAG 评估框架 | [🔗](https://github.com/vibrantlabsai/ragas) |
+| 12.7k | **ragas** | Agent/RAG 评估框架 | [🔗](https://github.com/vibrantlabsai/ragas) |
 
 ---
 
@@ -248,7 +248,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **AionUi** | AI 应用 GUI 工具 | [🔗](https://github.com/iOfficeAI/AionUi) |
+| 16.6k | **AionUi** | AI 应用 GUI 工具 | [🔗](https://github.com/iOfficeAI/AionUi) |
 
 ### 5.3 实用工具
 
@@ -256,10 +256,10 @@
 |---:|------|------|------|
 | 47.7k | **TrendRadar** | AI 趋势雷达 | [🔗](https://github.com/sansan0/TrendRadar) |
 | 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
-| - | **zeroclaw** | 快速轻量 AI 助手基础设施 | [🔗](https://github.com/zeroclaw-labs/zeroclaw) |
-| - | **openclaw** | 个人 AI 助手（跨平台） | [🔗](https://github.com/openclaw/openclaw) |
-| - | **crawl4ai** | LLM 友好的开源网页爬虫 | [🔗](https://github.com/unclecode/crawl4ai) |
-| - | **home-assistant** | 开源智能家居平台 | [🔗](https://github.com/home-assistant/core) |
+| 15.1k | **zeroclaw** | 快速轻量 AI 助手基础设施 | [🔗](https://github.com/zeroclaw-labs/zeroclaw) |
+| 212.0k | **openclaw** | 个人 AI 助手（跨平台） | [🔗](https://github.com/openclaw/openclaw) |
+| 60.5k | **crawl4ai** | LLM 友好的开源网页爬虫 | [🔗](https://github.com/unclecode/crawl4ai) |
+| 84.9k | **home-assistant** | 开源智能家居平台 | [🔗](https://github.com/home-assistant/core) |
 | - | **vibekanban** | Vibe Kanban 看板 | [🔗](https://www.vibekanban.com/docs) |
 
 ### 5.4 AI 媒体生成
@@ -281,9 +281,9 @@
 | 29.2k | **TradingAgents** | 多智能体 LLM 金融交易框架 | [🔗](https://github.com/TauricResearch/TradingAgents) |
 | 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
 | 18.6k | **FinGPT** | 开源金融大语言模型 | [🔗](https://github.com/AI4Finance-Foundation/FinGPT) |
-| - | **TradingAgents-CN** | TradingAgents 中文增强版 | [🔗](https://github.com/hsliuping/TradingAgents-CN) |
-| - | **valuecell** | 社区驱动的多 Agent 金融应用平台 | [🔗](https://github.com/ValueCell-ai/valuecell) |
-| - | **yfinance** | Yahoo Finance 市场数据下载 | [🔗](https://github.com/ranaroussi/yfinance) |
+| 17.5k | **TradingAgents-CN** | TradingAgents 中文增强版 | [🔗](https://github.com/hsliuping/TradingAgents-CN) |
+| 9.2k | **valuecell** | 社区驱动的多 Agent 金融应用平台 | [🔗](https://github.com/ValueCell-ai/valuecell) |
+| 21.6k | **yfinance** | Yahoo Finance 市场数据下载 | [🔗](https://github.com/ranaroussi/yfinance) |
 
 ---
 
@@ -295,7 +295,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **claude-cookbooks** | Anthropic 官方 Cookbook | [🔗](https://github.com/anthropics/claude-cookbooks) |
+| 33.1k | **claude-cookbooks** | Anthropic 官方 Cookbook | [🔗](https://github.com/anthropics/claude-cookbooks) |
 | - | **OpenAI Cookbook** | OpenAI Agents 专题 | [🔗](https://cookbook.openai.com/topic/agents) |
 | - | **Anthropic Engineering** | Anthropic 工程博客 | [🔗](https://www.anthropic.com/engineering) |
 
@@ -303,13 +303,13 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **spec-kit** | GitHub SDD 规范套件 | [🔗](https://github.com/github/spec-kit) |
+| 70.6k | **spec-kit** | GitHub SDD 规范套件 | [🔗](https://github.com/github/spec-kit) |
 
 ### 6.3 Vibe-Coding
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **vibe-coding-cn** | Vibe Coding 中文资源 | [🔗](https://github.com/2025Emma/vibe-coding-cn) |
+| 12.2k | **vibe-coding-cn** | Vibe Coding 中文资源 | [🔗](https://github.com/2025Emma/vibe-coding-cn) |
 | - | **awesome-vibe-coding** | Vibe Coding 精选资源 | [🔗](https://github.com/filipecalegario/awesome-vibe-coding/blob/main/README-CN.md) |
 
 ---
