@@ -310,7 +310,7 @@
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 12.2k | **vibe-coding-cn** | Vibe Coding 中文资源 | [🔗](https://github.com/2025Emma/vibe-coding-cn) |
-| - | **awesome-vibe-coding** | Vibe Coding 精选资源 | [🔗](https://github.com/filipecalegario/awesome-vibe-coding/blob/main/README-CN.md) |
+| 3.2k | **awesome-vibe-coding** | Vibe Coding 精选资源 | [🔗](https://github.com/filipecalegario/awesome-vibe-coding/blob/main/README-CN.md) |
 
 ---
 
