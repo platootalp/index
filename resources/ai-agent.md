@@ -210,6 +210,7 @@
 | 36.2k | **Coursera-ML-AndrewNg-Notes** | 吴恩达机器学习课程笔记 | [🔗](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) |
 | 20.3k | **deeplearning_ai_books** | 吴恩达深度学习课程笔记 | [🔗](https://github.com/fengdu78/deeplearning_ai_books) |
 | 18.7k | **nndl.github.io** | 《神经网络与深度学习》邱锡鹏 | [🔗](https://github.com/nndl/nndl.github.io) |
+| 6.9k | **technical-books** | 程序员必读书单（含 AI/LLM 领域） | [🔗](https://github.com/doocs/technical-books) |
 
 ### 3.3 学习项目
 
@@ -234,6 +235,9 @@
 ## 五、实用资源
 
 *AI 应用开发中的实用工具和资源，按 Stars 排序*
+| 7.4k | **agentic-design-patterns-cn** | 《Agentic Design Patterns》中文版 | [🔗](https://github.com/ginobefun/agentic-design-patterns-cn) |
+| 7.4k | **rag-from-scratch** | LangChain 官方 RAG 从零开始教程 | [🔗](https://github.com/langchain-ai/rag-from-scratch) |
+| 9.0k | **skills (openai)** | OpenAI Skills 官方 | [🔗](https://github.com/openai/skills) |
 
 ### 5.1 开发者平台
 
@@ -259,6 +263,7 @@
 | 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
 | 15.1k | **zeroclaw** | 快速轻量 AI 助手基础设施 | [🔗](https://github.com/zeroclaw-labs/zeroclaw) |
 | - | **vibekanban** | Vibe Kanban 看板 | [🔗](https://www.vibekanban.com/docs) |
+| 9.2k | **valuecell** | 社区驱动的多 Agent 金融应用平台 | [🔗](https://github.com/ValueCell-ai/valuecell) |
 
 ### 5.4 AI 媒体生成
 

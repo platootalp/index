@@ -59,6 +59,8 @@
 ### Spring 生态
 
 | ⭐ | 名称 | 简介 | 链接 |
+| 7.9k | **spring-ai** | Spring AI 工程框架 | [🔗](https://github.com/spring-projects/spring-ai) |
+| 8.4k | **spring-ai-alibaba** | 面向 Java 开发者的 Agentic AI 框架 | [🔗](https://github.com/alibaba/spring-ai-alibaba) |
 |---:|------|------|------|
 
 ### 架构与设计模式
@@ -71,6 +73,7 @@
 ### 源码学习
 
 | ⭐ | 名称 | 简介 | 链接 |
+| 9.9k | **spring-reading** | Spring 框架核心概念深入研究 | [🔗](https://github.com/xuchengsheng/spring-reading) |
 |---:|------|------|------|
 | 78.8k | **advanced-java** | 互联网 Java 工程师进阶知识 | [🔗](https://github.com/doocs/advanced-java) |
 | 23.1k | **source-code-hunter** | 从源码剖析主流技术底层原理 | [🔗](https://github.com/doocs/source-code-hunter) |
@@ -88,6 +91,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
+| 8.1k | **codeforces-go** | 算法竞赛模板库 by 灵茶山艾府 | [🔗](https://github.com/EndlessCheng/codeforces-go) |
 | 122.1k | **hello-algo** | 《Hello 算法》：动画图解数据结构与算法 | [🔗](https://github.com/krahets/hello-algo) |
 | 76.7k | **LeetCodeAnimation** | 用动画呈现解 LeetCode 题目的思路 | [🔗](https://github.com/MisterBooo/LeetCodeAnimation) |
 | 60.2k | **leetcode-master** | 《代码随想录》LeetCode 刷题攻略 | [🔗](https://github.com/youngyangyang04/leetcode-master) |
@@ -99,6 +103,7 @@
 ## 六、前端与工具
 
 | ⭐ | 名称 | 简介 | 链接 |
+| 7.0k | **workout-cool** | 🏋 现代开源健身平台 | [🔗](https://github.com/Snouzy/workout-cool) |
 |---:|------|------|------|
 | 78.3k | **vite** | 下一代前端构建工具 | [🔗](https://github.com/vitejs/vite) |
 | 47.7k | **type-challenges** | TypeScript 类型挑战集合 | [🔗](https://github.com/type-challenges/type-challenges) |
