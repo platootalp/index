@@ -69,7 +69,6 @@
 | 24.2k | **langgraph** | 构建弹性语言 Agent（图结构） | [🔗](https://github.com/langchain-ai/langgraph) |
 | 19.0k | **openai-agents-python** | OpenAI Agents SDK | [🔗](https://github.com/openai/openai-agents-python) |
 | 17.8k | **adk-python** | Google ADK（Agent 开发套件） | [🔗](https://github.com/google/adk-python) |
-| 7.9k | **spring-ai** | Spring AI 工程框架 | [🔗](https://github.com/spring-projects/spring-ai) |
 
 ### 1.2 推理框架与模型部署
 
@@ -95,7 +94,6 @@
 | 48.4k | **everything-claude-code** | Claude Code 资源合集 | [🔗](https://github.com/affaan-m/everything-claude-code) |
 | 32.4k | **oh-my-opencode** | opencode 最佳增强工具 | [🔗](https://github.com/code-yeongyu/oh-my-opencode) |
 | 21.5k | **vibe-kanban** | 让 Claude Code/Codex 效率提升 10 倍 | [🔗](https://github.com/BloopAI/vibe-kanban) |
-| 4.7k | **claude-code-system-prompts** | Claude Code 系统提示词 | [🔗](https://github.com/Piebald-AI/claude-code-system-prompts) |
 
 ### 1.4 低代码平台
 
@@ -180,7 +178,6 @@
 | 72.0k | **skills (anthropics)** | Anthropic Skills 官方 | [🔗](https://github.com/anthropics/skills) |
 | 36.0k | **awesome-claude-skills** | Claude Skills 精选 | [🔗](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 13.1k | **antigravity-awesome-skills** | 更多 Skills 资源 | [🔗](https://github.com/sickn33/antigravity-awesome-skills) |
-| 9.0k | **skills (openai)** | OpenAI Skills 官方 | [🔗](https://github.com/openai/skills) |
 | - | **skillsmp** | Skills 市场（中文） | [🔗](https://skillsmp.com/zh) |
 | - | **skills.sh** | Skills 市场 | [🔗](https://skills.sh/) |
 
@@ -204,12 +201,7 @@
 | 23.2k | **llm-cookbook** | 面向开发者的 LLM 入门教程（吴恩达中文） | [🔗](https://github.com/datawhalechina/llm-cookbook) |
 | 23.2k | **llm-action** | 大模型实战项目集合 | [🔗](https://github.com/liguodongiot/llm-action) |
 | 23.2k | **llm-universe** | 小白开发者的大模型应用开发教程 | [🔗](https://github.com/datawhalechina/llm-universe) |
-| 7.4k | **rag-from-scratch** | LangChain 官方 RAG 从零开始教程 | [🔗](https://github.com/langchain-ai/rag-from-scratch) |
-| 4.0k | **agents** | Ed Donner 的 AI Agent 教程 | [🔗](https://github.com/ed-donner/agents) |
-| 1.8k | **AgentGuide** | AI Agent 开发指南 | [🔗](https://github.com/adongwanai/AgentGuide) |
-| 1.8k | **How-to-use-Transformers** | Transformers 库快速入门教程 | [🔗](https://github.com/jsksxs360/How-to-use-Transformers) |
 | 21.1k | **hello-agents** | Datawhale Agent 开发入门教程 | [🔗](https://github.com/datawhalechina/hello-agents) |
-| 4.0k | **all-in-rag** | Datawhale RAG 技术栈教程 | [🔗](https://github.com/datawhalechina/all-in-rag) |
 
 ### 3.2 书籍与笔记
 
@@ -218,8 +210,6 @@
 | 36.2k | **Coursera-ML-AndrewNg-Notes** | 吴恩达机器学习课程笔记 | [🔗](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) |
 | 20.3k | **deeplearning_ai_books** | 吴恩达深度学习课程笔记 | [🔗](https://github.com/fengdu78/deeplearning_ai_books) |
 | 18.7k | **nndl.github.io** | 《神经网络与深度学习》邱锡鹏 | [🔗](https://github.com/nndl/nndl.github.io) |
-| 7.4k | **agentic-design-patterns-cn** | 《Agentic Design Patterns》中文版 | [🔗](https://github.com/ginobefun/agentic-design-patterns-cn) |
-| 1.8k | **agentic-design-patterns** | Agent 设计模式 | [🔗](https://github.com/xindoo/agentic-design-patterns) |
 
 ### 3.3 学习项目
 
@@ -290,7 +280,6 @@
 | 21.6k | **yfinance** | Yahoo Finance 市场数据下载 | [🔗](https://github.com/ranaroussi/yfinance) |
 | 18.6k | **FinGPT** | 开源金融大语言模型 | [🔗](https://github.com/AI4Finance-Foundation/FinGPT) |
 | 17.5k | **TradingAgents-CN** | TradingAgents 中文增强版 | [🔗](https://github.com/hsliuping/TradingAgents-CN) |
-| 9.2k | **valuecell** | 社区驱动的多 Agent 金融应用平台 | [🔗](https://github.com/ValueCell-ai/valuecell) |
 
 ---
 
@@ -317,7 +306,6 @@
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 12.2k | **vibe-coding-cn** | Vibe Coding 中文资源 | [🔗](https://github.com/2025Emma/vibe-coding-cn) |
-| 3.2k | **awesome-vibe-coding** | Vibe Coding 精选资源 | [🔗](https://github.com/filipecalegario/awesome-vibe-coding/blob/main/README-CN.md) |
 
 ---
 

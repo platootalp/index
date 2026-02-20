@@ -60,9 +60,6 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 9.9k | **spring-reading** | Spring 框架核心概念深入研究 | [🔗](https://github.com/xuchengsheng/spring-reading) |
-| 7.9k | **spring-ai** | Spring AI 工程框架 | [🔗](https://github.com/spring-projects/spring-ai) |
-| 8.4k | **spring-ai-alibaba** | 面向 Java 开发者的 Agentic AI 框架 | [🔗](https://github.com/alibaba/spring-ai-alibaba) |
 
 ### 架构与设计模式
 
@@ -84,8 +81,6 @@
 |---:|------|------|------|
 | 153.7k | **JavaGuide** | Java 面试 & 后端通用面试指南 | [🔗](https://github.com/Snailclimb/JavaGuide) |
 | 64.9k | **TheAlgorithms/Java** | All Algorithms implemented in Java | [🔗](https://github.com/TheAlgorithms/Java) |
-| 6.9k | **technical-books** | 互联网技术大牛书籍整理 | [🔗](https://github.com/doocs/technical-books) |
-| 1.8k | **java-books** | 程序员常读书单整理（附下载） | [🔗](https://github.com/Tyson0314/java-books) |
 
 ---
 
@@ -98,7 +93,6 @@
 | 60.2k | **leetcode-master** | 《代码随想录》LeetCode 刷题攻略 | [🔗](https://github.com/youngyangyang04/leetcode-master) |
 | 64.9k | **TheAlgorithms/Java** | All Algorithms implemented in Java | [🔗](https://github.com/TheAlgorithms/Java) |
 | 25.4k | **OI-wiki** | OI / ICPC 竞赛 Wiki | [🔗](https://github.com/OI-wiki/OI-wiki) |
-| 8.1k | **codeforces-go** | 算法竞赛模板库 by 灵茶山艾府 | [🔗](https://github.com/EndlessCheng/codeforces-go) |
 
 ---
 
@@ -110,7 +104,6 @@
 | 47.7k | **type-challenges** | TypeScript 类型挑战集合 | [🔗](https://github.com/type-challenges/type-challenges) |
 | 32.6k | **YesPlayMusic** | 高颜值第三方网易云播放器 | [🔗](https://github.com/qier222/YesPlayMusic) |
 | 11.8k | **TranslationPlugin** | IntelliJ IDEA 翻译插件 | [🔗](https://github.com/YiiGuxing/TranslationPlugin) |
-| 7.0k | **workout-cool** | 🏋 现代开源健身平台 | [🔗](https://github.com/Snouzy/workout-cool) |
 
 ---
 
