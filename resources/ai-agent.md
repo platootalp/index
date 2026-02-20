@@ -101,9 +101,6 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 172.9k | **n8n** | 工作流自动化平台 | [🔗](https://github.com/n8n-io/n8n) |
-| 128.6k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
-| 122.8k | **open-webui** | 用户友好 AI 界面（支持 Ollama） | [🔗](https://github.com/open-webui/open-webui) |
 | 54.2k | **anything-llm** | 一站式 AI 应用（RAG + Agent 构建器） | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
 | - | **coze** | 扣子 AI 应用平台 | [🔗](https://www.coze.cn/) |
 
@@ -181,7 +178,6 @@
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 72.0k | **skills (anthropics)** | Anthropic Skills 官方 | [🔗](https://github.com/anthropics/skills) |
-| 70.6k | **spec-kit** | GitHub SDD 规范 | [🔗](https://github.com/github/spec-kit) |
 | 36.0k | **awesome-claude-skills** | Claude Skills 精选 | [🔗](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 13.1k | **antigravity-awesome-skills** | 更多 Skills 资源 | [🔗](https://github.com/sickn33/antigravity-awesome-skills) |
 | 9.0k | **skills (openai)** | OpenAI Skills 官方 | [🔗](https://github.com/openai/skills) |
@@ -232,7 +228,6 @@
 | 92.0k | **awesome-llm-apps** | 精选 LLM 应用合集（OpenAI, Anthropic, Gemini） | [🔗](https://github.com/Shubhamsaboo/awesome-llm-apps) |
 | 38.7k | **minimind** | 2 小时从 0 训练 26M 小参数 GPT | [🔗](https://github.com/jingyaogong/minimind) |
 | 24.4k | **500-AI-Agents-Projects** | 500 个 AI Agent 项目集合 | [🔗](https://github.com/ashishpatel26/500-AI-Agents-Projects) |
-| 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
 | 16.3k | **WeClone** | 从聊天记录创建数字分身 | [🔗](https://github.com/xming521/WeClone) |
 | 15.7k | **dexter** | 自主深度金融研究 Agent | [🔗](https://github.com/virattt/dexter) |
 
@@ -292,7 +287,6 @@
 | 59.8k | **OpenBB** | 金融数据平台（分析师、量化、AI Agent） | [🔗](https://github.com/OpenBB-finance/OpenBB) |
 | 45.6k | **ai-hedge-fund** | AI 对冲基金团队 | [🔗](https://github.com/virattt/ai-hedge-fund) |
 | 29.2k | **TradingAgents** | 多智能体 LLM 金融交易框架 | [🔗](https://github.com/TauricResearch/TradingAgents) |
-| 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
 | 21.6k | **yfinance** | Yahoo Finance 市场数据下载 | [🔗](https://github.com/ranaroussi/yfinance) |
 | 18.6k | **FinGPT** | 开源金融大语言模型 | [🔗](https://github.com/AI4Finance-Foundation/FinGPT) |
 | 17.5k | **TradingAgents-CN** | TradingAgents 中文增强版 | [🔗](https://github.com/hsliuping/TradingAgents-CN) |
@@ -316,7 +310,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **spec-kit** | GitHub SDD 规范套件 | [🔗](https://github.com/github/spec-kit) |
+| 70.6k | **spec-kit** | GitHub SDD 规范套件 | [🔗](https://github.com/github/spec-kit) |
 
 ### 6.3 Vibe-Coding
 
