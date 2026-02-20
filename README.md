@@ -78,11 +78,11 @@
 | 94.9k | **gemini-cli** | Google Gemini CLI | [🔗](https://github.com/google-gemini/gemini-cli) |
 | 67.8k | **claude-code** | Anthropic 官方 Coding Agent | [🔗](https://github.com/anthropics/claude-code) |
 | 61.1k | **codex** | OpenAI 官方 Coding Agent | [🔗](https://github.com/openai/codex) |
+| 55.4k | **superpowers** | Claude Code 增强插件 | [🔗](https://github.com/obra/superpowers) |
+| 48.4k | **everything-claude-code** | Claude Code 资源合集 | [🔗](https://github.com/affaan-m/everything-claude-code) |
 | 32.4k | **oh-my-opencode** | opencode 最佳增强工具 | [🔗](https://github.com/code-yeongyu/oh-my-opencode) |
 | 21.5k | **vibe-kanban** | 让 Claude Code/Codex 效率提升 10 倍 | [🔗](https://github.com/BloopAI/vibe-kanban) |
 | 4.7k | **claude-code-system-prompts** | Claude Code 系统提示词 | [🔗](https://github.com/Piebald-AI/claude-code-system-prompts) |
-| 55.4k | **superpowers** | Claude Code 增强插件 | [🔗](https://github.com/obra/superpowers) |
-| 48.4k | **everything-claude-code** | Claude Code 资源合集 | [🔗](https://github.com/affaan-m/everything-claude-code) |
 
 ### 1.4 低代码平台
 
@@ -168,10 +168,10 @@
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 72.0k | **skills (anthropics)** | Anthropic Skills 官方 | [🔗](https://github.com/anthropics/skills) |
+| 70.6k | **spec-kit** | GitHub SDD 规范 | [🔗](https://github.com/github/spec-kit) |
 | 36.0k | **awesome-claude-skills** | Claude Skills 精选 | [🔗](https://github.com/ComposioHQ/awesome-claude-skills) |
 | 13.1k | **antigravity-awesome-skills** | 更多 Skills 资源 | [🔗](https://github.com/sickn33/antigravity-awesome-skills) |
 | 9.0k | **skills (openai)** | OpenAI Skills 官方 | [🔗](https://github.com/openai/skills) |
-| 70.6k | **spec-kit** | GitHub SDD 规范 | [🔗](https://github.com/github/spec-kit) |
 | - | **skillsmp** | Skills 市场（中文） | [🔗](https://skillsmp.com/zh) |
 | - | **skills.sh** | Skills 市场 | [🔗](https://skills.sh/) |
 
@@ -191,16 +191,16 @@
 | 41.0k | **chatgpt-on-wechat** | 基于大模型的超级 AI 助理（多平台接入） | [🔗](https://github.com/zhayujie/chatgpt-on-wechat) |
 | 27.9k | **ai-engineering-hub** | LLM、RAG 和 AI Agent 深度实战教程 | [🔗](https://github.com/patchy631/ai-engineering-hub) |
 | 25.1k | **agents-course** | Hugging Face Agents 官方课程 | [🔗](https://github.com/huggingface/agents-course) |
+| 24.8k | **awesome-generative-ai-guide** | 生成式 AI 学习资源大全 | [🔗](https://github.com/aishwaryanr/awesome-generative-ai-guide) |
 | 23.2k | **llm-cookbook** | 面向开发者的 LLM 入门教程（吴恩达中文） | [🔗](https://github.com/datawhalechina/llm-cookbook) |
 | 23.2k | **llm-action** | 大模型实战项目集合 | [🔗](https://github.com/liguodongiot/llm-action) |
 | 23.2k | **llm-universe** | 小白开发者的大模型应用开发教程 | [🔗](https://github.com/datawhalechina/llm-universe) |
+| 7.4k | **rag-from-scratch** | LangChain 官方 RAG 从零开始教程 | [🔗](https://github.com/langchain-ai/rag-from-scratch) |
+| 4.0k | **agents** | Ed Donner 的 AI Agent 教程 | [🔗](https://github.com/ed-donner/agents) |
+| 1.8k | **AgentGuide** | AI Agent 开发指南 | [🔗](https://github.com/adongwanai/AgentGuide) |
+| 1.8k | **How-to-use-Transformers** | Transformers 库快速入门教程 | [🔗](https://github.com/jsksxs360/How-to-use-Transformers) |
 | - | **hello-agents** | Datawhale Agent 开发入门教程 | [🔗](https://datawhalechina.github.io/hello-agents/#/) |
 | - | **all-in-rag** | Datawhale RAG 技术栈教程 | [🔗](https://datawhalechina.github.io/all-in-rag/#/) |
-| 7.4k | **rag-from-scratch** | LangChain 官方 RAG 从零开始教程 | [🔗](https://github.com/langchain-ai/rag-from-scratch) |
-| 1.8k | **AgentGuide** | AI Agent 开发指南 | [🔗](https://github.com/adongwanai/AgentGuide) |
-| 4.0k | **agents** | Ed Donner 的 AI Agent 教程 | [🔗](https://github.com/ed-donner/agents) |
-| 1.8k | **How-to-use-Transformers** | Transformers 库快速入门教程 | [🔗](https://github.com/jsksxs360/How-to-use-Transformers) |
-| 24.8k | **awesome-generative-ai-guide** | 生成式 AI 学习资源大全 | [🔗](https://github.com/aishwaryanr/awesome-generative-ai-guide) |
 
 ### 3.2 书籍与笔记
 
@@ -208,9 +208,9 @@
 |---:|------|------|------|
 | 36.2k | **Coursera-ML-AndrewNg-Notes** | 吴恩达机器学习课程笔记 | [🔗](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) |
 | 20.3k | **deeplearning_ai_books** | 吴恩达深度学习课程笔记 | [🔗](https://github.com/fengdu78/deeplearning_ai_books) |
+| 18.7k | **nndl.github.io** | 《神经网络与深度学习》邱锡鹏 | [🔗](https://github.com/nndl/nndl.github.io) |
 | 7.4k | **agentic-design-patterns-cn** | 《Agentic Design Patterns》中文版 | [🔗](https://github.com/ginobefun/agentic-design-patterns-cn) |
 | 1.8k | **agentic-design-patterns** | Agent 设计模式 | [🔗](https://github.com/xindoo/agentic-design-patterns) |
-| 18.7k | **nndl.github.io** | 《神经网络与深度学习》邱锡鹏 | [🔗](https://github.com/nndl/nndl.github.io) |
 
 ### 3.3 学习项目
 
@@ -254,12 +254,12 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
+| 212.0k | **openclaw** | 个人 AI 助手（跨平台） | [🔗](https://github.com/openclaw/openclaw) |
+| 84.9k | **home-assistant** | 开源智能家居平台 | [🔗](https://github.com/home-assistant/core) |
+| 60.5k | **crawl4ai** | LLM 友好的开源网页爬虫 | [🔗](https://github.com/unclecode/crawl4ai) |
 | 47.7k | **TrendRadar** | AI 趋势雷达 | [🔗](https://github.com/sansan0/TrendRadar) |
 | 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
 | 15.1k | **zeroclaw** | 快速轻量 AI 助手基础设施 | [🔗](https://github.com/zeroclaw-labs/zeroclaw) |
-| 212.0k | **openclaw** | 个人 AI 助手（跨平台） | [🔗](https://github.com/openclaw/openclaw) |
-| 60.5k | **crawl4ai** | LLM 友好的开源网页爬虫 | [🔗](https://github.com/unclecode/crawl4ai) |
-| 84.9k | **home-assistant** | 开源智能家居平台 | [🔗](https://github.com/home-assistant/core) |
 | - | **vibekanban** | Vibe Kanban 看板 | [🔗](https://www.vibekanban.com/docs) |
 
 ### 5.4 AI 媒体生成
@@ -280,10 +280,10 @@
 | 45.6k | **ai-hedge-fund** | AI 对冲基金团队 | [🔗](https://github.com/virattt/ai-hedge-fund) |
 | 29.2k | **TradingAgents** | 多智能体 LLM 金融交易框架 | [🔗](https://github.com/TauricResearch/TradingAgents) |
 | 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
+| 21.6k | **yfinance** | Yahoo Finance 市场数据下载 | [🔗](https://github.com/ranaroussi/yfinance) |
 | 18.6k | **FinGPT** | 开源金融大语言模型 | [🔗](https://github.com/AI4Finance-Foundation/FinGPT) |
 | 17.5k | **TradingAgents-CN** | TradingAgents 中文增强版 | [🔗](https://github.com/hsliuping/TradingAgents-CN) |
 | 9.2k | **valuecell** | 社区驱动的多 Agent 金融应用平台 | [🔗](https://github.com/ValueCell-ai/valuecell) |
-| 21.6k | **yfinance** | Yahoo Finance 市场数据下载 | [🔗](https://github.com/ranaroussi/yfinance) |
 
 ---
 
@@ -303,7 +303,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 70.6k | **spec-kit** | GitHub SDD 规范套件 | [🔗](https://github.com/github/spec-kit) |
+| - | **spec-kit** | GitHub SDD 规范套件 | [🔗](https://github.com/github/spec-kit) |
 
 ### 6.3 Vibe-Coding
 
