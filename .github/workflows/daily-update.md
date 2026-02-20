@@ -1,224 +1,244 @@
-# 每日更新工作流程
+# Skill: Daily Index Update
 
-> 自动化更新 index 仓库的 AI 新闻和资源索引
-
-**触发方式**: 每日 08:00 (Asia/Shanghai) 自动执行
+> 每日自动更新 index 仓库的 AI 新闻和资源索引
 
 ---
 
-## 第一部分：更新 AI 新闻
+## Purpose
 
-生成 `ai-news/YYYY-MM-DD.md` 文件，包含三方面内容：
-
-### 1.1 每日 AI 新闻 (10条)
-
-**来源**: Tavily API 搜索
-
-```bash
-./tools/tavily-search.sh \
-  "AI artificial intelligence LLM OpenAI Anthropic Google latest news today" \
-  15
-```
-
-**筛选标准**:
-- 优先：TechCrunch、The Verge、MIT Technology Review、机器之心、36kr
-- 排除：需翻墙访问、社交媒体、博客spam
-- 要求：标题清晰、内容完整、链接可访问
-
-**输出格式**:
-```markdown
-### AI 新闻
-
-| 标题 | 来源 | 摘要 |
-|------|------|------|
-| [xxx] | TechCrunch | 一句话摘要 |
-```
-
-### 1.2 每日 GitHub Trending (10个)
-
-**来源**: GitHub Trending 页面 + Tavily 搜索
-
-```bash
-./tools/tavily-search.sh \
-  "site:github.com/trending AI agent LLM machine learning today" \
-  15
-```
-
-**筛选标准**:
-- 项目类型：Agent框架、LLM工具、AI应用
-- 排除：个人学习仓库、空壳项目、fork仓库
-- 必须含：项目名、简介、今日Star增长数
-
-**输出格式**:
-```markdown
-### GitHub Trending
-
-| 项目 | 简介 | 语言 | 今日⭐ |
-|------|------|------|-------:|
-| user/repo | 简介 | Python | +1.2k |
-```
-
-### 1.3 每日新增 AI 论文 (10篇)
-
-**来源**: arXiv 最新论文
-
-```bash
-./tools/tavily-search.sh \
-  "site:arxiv.org LLM reasoning agent multimodal 2026" \
-  15
-```
-
-**筛选标准**:
-- 限定：arxiv.org/abs 链接
-- 日期：最近7天
-- 关键词：reasoning, agent, multimodal, efficiency, safety
-- 排除：纯理论、旧论文（>30天）
-
-**输出格式**:
-```markdown
-### arXiv 论文
-
-| 标题 | 作者 | 关键词 |
-|------|------|--------|
-| [Paper Title](link) | Author et al. | reasoning, agent |
-```
+自动化完成两项任务：
+1. **采集 AI 内容** → 生成 `ai-news/YYYY-MM-DD.md`
+2. **维护资源索引** → 更新 `resources/` 下的 stars 数据
 
 ---
 
-## 第二部分：更新资源索引
+## When to Use
 
-检查并更新 `resources/` 目录下的资源文件：
+- **自动触发**: 每日 08:00 (Asia/Shanghai) 由 Cron 执行
+- **手动触发**: 需要立即更新仓库时
 
-### 2.1 检查 Stars 变化
+---
 
-**目标文件**:
-- `resources/ai-agent.md` (155+ 资源)
-- `resources/general-dev.md` (44 资源)
+## Inputs
 
-**执行方式**:
+| Input | Required | Default | Description |
+|-------|----------|---------|-------------|
+| `DATE` | No | `date +%Y-%m-%d` | 更新日期 |
+| `SKIP_NEWS` | No | `false` | 跳过 AI 新闻采集 |
+| `SKIP_RESOURCES` | No | `false` | 跳过资源索引更新 |
+| `DRY_RUN` | No | `false` | 仅预览，不提交 |
+
+---
+
+## Outputs
+
+| Output | Location | Description |
+|--------|----------|-------------|
+| `news_file` | `ai-news/{DATE}.md` | 当日 AI 日报 |
+| `commit_hash` | Git log | 提交的 commit ID |
+| `summary` | Console | 更新摘要 |
+
+---
+
+## Workflow
+
+### Part 1: Update AI News
+
+采集三方面内容，**不强制数量**，有多少算多少：
+
+#### Step 1.1 - AI Industry News
 ```bash
-# 提取所有 GitHub 仓库链接
-grep -oE 'github\.com/[^)]+' resources/ai-agent.md | sort | uniq
+./tools/tavily-search.sh \
+  "AI artificial intelligence LLM OpenAI Anthropic Google latest news" \
+  10 > /tmp/news.json
 
-# 批量获取最新 stars（注意 rate limit）
-# 每小时限制 60 次（未认证）或 5000 次（认证）
+# 提取结果（不强制数量，可能0-10条）
+jq -r '.results[] | "- [\(.title)](\(.url))"' /tmp/news.json
 ```
 
-**更新策略**:
-| 情况 | 处理方式 |
-|------|---------|
-| Stars 增长 > 1000 | 更新数值，保持排序 |
-| Stars 增长 100-1000 | 记录变化，批量更新 |
-| Stars 增长 < 100 | 暂不更新 |
-| 仓库 Archived/Deleted | 标记或移除 |
-| 新增重要版本/Release | 更新简介描述 |
+**Acceptance Criteria**:
+- 来源可靠（TechCrunch、MIT TR、机器之心等）
+- 内容完整（非付费墙、非404）
+- 近 24 小时内
+- ❌ **不凑数**：不足10条就记录实际数量
 
-### 2.2 检测新资源
+#### Step 1.2 - GitHub Trending
+```bash
+./tools/tavily-search.sh \
+  "site:github.com/trending AI agent LLM" \
+  10 > /tmp/trending.json
 
-**来源**:
-- GitHub Trending（与第一部分共享数据）
-- Hacker News AI 相关帖子
-- Twitter/X 热门项目
+# 提取 AI/Agent 相关项目
+jq -r '.results[] | select(.title | contains("AI"))' /tmp/trending.json
+```
 
-**入库标准**:
-- ⭐ Stars > 5000（框架类）或 > 1000（工具类）
-- 最近 30 天内活跃
-- 文档完整、有实际应用场景
+**Acceptance Criteria**:
 - 与 AI/Agent 强相关
+- 项目质量达标（stars>1000、文档完整）
+- ❌ **不凑数**：可能0-5个有效结果
 
-**新增流程**:
-1. 在 `resources/ai-agent.md` 中找到合适分类
-2. 按 stars 数量插入正确位置
-3. 更新分类计数统计
-
-### 2.3 资源去重检查
-
+#### Step 1.3 - arXiv Papers
 ```bash
-# 检查重复资源名
-grep -oE '\*\*[^*]+\*\*' resources/ai-agent.md | sort | uniq -c | sort -rn
+./tools/tavily-search.sh \
+  "site:arxiv.org LLM reasoning agent 2026" \
+  10 > /tmp/papers.json
 
-# 如有重复 >1，标记需要处理
+# 筛选近期论文
+jq -r '.results[] | "- [\(.title)](\(.url))"' /tmp/papers.json
+```
+
+**Acceptance Criteria**:
+- arxiv.org/abs 链接
+- 近 7 天内发布
+- 关键词匹配（reasoning, agent, multimodal）
+- ❌ **不凑数**：可能0-3篇相关论文
+
+#### Step 1.4 - Generate Report
+```bash
+DATE=$(date +%Y-%m-%d)
+
+cat > ai-news/${DATE}.md << 'EOF'
+# ${DATE} AI 日报
+
+## AI 新闻
+$(echo "实际获取: $(jq '.results | length' /tmp/news.json) 条")
+$(jq -r '.results[] | "- [\(.title)](\(.url))"' /tmp/news.json)
+
+## GitHub Trending  
+$(echo "实际获取: $(jq '.results | length' /tmp/trending.json) 个")
+$(jq -r '.results[] | "- [\(.title)](\(.url))"' /tmp/trending.json)
+
+## arXiv 论文
+$(echo "实际获取: $(jq '.results | length' /tmp/papers.json) 篇")
+$(jq -r '.results[] | "- [\(.title)](\(.url))"' /tmp/papers.json)
+
+---
+*Generated: ${DATE}*  
+*Quality > Quantity: 不凑数，只记录真实有价值的内容*
+EOF
 ```
 
 ---
 
-## Git 提交规范
+### Part 2: Update Resources
+
+检查并更新 `resources/` 目录：
+
+#### Step 2.1 - Check User's Starred Repos
+```bash
+# 获取 platootalp 最近 star 的仓库
+curl -s "https://api.github.com/users/platootalp/starred?per_page=50" \
+  | jq -r '.[] | "\(.full_name): \(.stargazers_count)"' \
+  > /tmp/my-stars.txt
+
+# 对比现有资源，找出新增项
+comm -23 <(sort /tmp/my-stars.txt) <(sort resources/.cache/stars.txt 2>/dev/null)
+```
+
+#### Step 2.2 - Update Stars Count (Top 20)
+```bash
+# 只检查高 star 项目的变化
+repos=(
+  "ollama/ollama"
+  "langgenius/dify" 
+  "n8n-io/n8n"
+  "langchain-ai/langchain"
+  "crewAIInc/crewAI"
+  "openai/codex"
+  "anthropics/claude-code"
+  "huggingface/transformers"
+)
+
+for repo in "${repos[@]}"; do
+  star=$(curl -s "https://api.github.com/repos/$repo" | jq -r '.stargazers_count // 0')
+  echo "$repo: $star"
+  sleep 0.6  # rate limit
+done > /tmp/stars-update.txt
+```
+
+**Update Rule**:
+- Stars 变化 > 1000：立即更新文件
+- Stars 变化 100-1000：累计批量更新
+- Stars 变化 < 100：不更新
+
+#### Step 2.3 - Apply Updates
+```bash
+# 替换 resources/ai-agent.md 中的 stars 数值
+# 保持原有排序和格式
+```
+
+---
+
+## Git Commit
 
 ```bash
 cd ~/road/index
+
 git checkout master
 git pull origin master
 
-# 添加变更
-git add ai-news/
-git add resources/
+git add ai-news/ resources/
 
-# 提交信息
-git commit -m "daily: $(date +%Y-%m-%d) 自动更新
+# 生成提交信息
+COMMIT_MSG="daily: ${DATE} 更新
 
-$(if [ -f ai-news/$(date +%Y-%m-%d).md ]; then echo '- AI新闻: 新增 $(date +%Y-%m-%d).md'; fi)
-$(if git diff --cached resources/ | grep -q '^+.*k'; then echo '- 资源索引: GitHub stars 更新'; fi)
+Part 1 - AI新闻:
+- 新闻: $(jq '.results | length' /tmp/news.json) 条
+- Trending: $(jq '.results | length' /tmp/trending.json) 个  
+- 论文: $(jq '.results | length' /tmp/papers.json) 篇
 
-自动生成"
+Part 2 - 资源:
+$(if [ -s /tmp/stars-update.txt ]; then echo "- Stars 已更新"; else echo "- 无显著变化"; fi)
 
-git push origin master
+Auto-generated"
+
+if ! git diff --cached --quiet; then
+  git commit -m "$COMMIT_MSG"
+  git push origin master
+  echo "✅ Committed: $(git rev-parse --short HEAD)"
+else
+  echo "ℹ️ No changes detected"
+fi
 ```
 
 ---
 
-## 输出通知模板
+## Error Handling
 
-任务完成后输出：
+| Scenario | Response |
+|----------|----------|
+| Tavily API 失败 | 跳过 Part 1，继续 Part 2 |
+| GitHub API rate limited | 延迟 60s 后重试，最多 3 次 |
+| No new content found | 输出 "今日无新内容"，正常结束 |
+| Git push failed | 保留本地变更，下次合并 |
+
+---
+
+## Example Output
 
 ```
-📅 $(date +%Y-%m-%d) Index 仓库更新报告
+📅 2026-02-20 Index 更新
 
-## 第一部分：AI 新闻
-✅ ai-news/$(date +%Y-%m-%d).md
-   - AI 新闻: X 条
-   - GitHub Trending: X 个
-   - arXiv 论文: X 篇
+Part 1 - AI News:
+  ✅ ai-news/2026-02-20.md
+     - 新闻: 6 条 (不凑数)
+     - Trending: 3 个
+     - 论文: 2 篇
 
-## 第二部分：资源索引
-✅ resources/ai-agent.md
-   - Stars 更新: X 个仓库
-   - 新增资源: X 个
+Part 2 - Resources:
+  ✅ resources/ai-agent.md
+     - Stars 更新: 3 个仓库
+     - 新增资源: 0 个
 
+Commit: 523cab0
 🔗 https://github.com/platootalp/index
 ```
 
 ---
 
-## 错误处理
+## Related
 
-| 阶段 | 错误类型 | 处理策略 |
-|------|---------|---------|
-| Part 1 | Tavily API 失败 | 重试3次，失败则跳过 Part 1 |
-| Part 1 | 结果不足10条 | 降低筛选标准，输出可用内容 |
-| Part 2 | GitHub API rate limit | 延迟执行，使用缓存数据 |
-| Part 2 | 仓库不存在 | 标记为待清理 |
-| Git | push 失败 | 保留本地，下次合并 |
-
----
-
-## 手动执行命令
-
-```bash
-# 执行完整流程
-cd ~/road/index && ./.github/workflows/daily-update.sh
-
-# 仅执行 Part 1 (AI新闻)
-./tools/tavily-search.sh "AI latest news" 15
-
-# 仅执行 Part 2 (资源检查)
-./scripts/check-stars.sh resources/ai-agent.md
-```
-
----
-
-## 相关文件
-
-- `~/road/index/ai-news/` - AI 新闻存档
-- `~/road/index/resources/ai-agent.md` - AI-Agent 资源索引
-- `~/road/index/resources/general-dev.md` - 通用开发资源
-- `~/road/index/tools/tavily-search.sh` - Tavily API 采集工具
+- `tools/tavily-search.sh` - Tavily API 搜索工具
+- `resources/ai-agent.md` - AI-Agent 资源索引
+- `resources/general-dev.md` - 通用开发资源
+- `ai-news/` - AI 新闻存档目录
