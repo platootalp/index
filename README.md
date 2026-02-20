@@ -6,9 +6,9 @@
 
 ## 📋 目录
 
-- **[一、开发工具与框架](#一开发工具与框架)** (23个)
-  - [1.1 开发框架](#11-开发框架) (8个)
-  - [1.2 推理框架与模型部署](#12-推理框架与模型部署) (6个)
+- **[一、开发工具与框架](#一开发工具与框架)** (28个)
+  - [1.1 开发框架](#11-开发框架) (10个)
+  - [1.2 推理框架与模型部署](#12-推理框架与模型部署) (7个)
   - [1.3 Coding-Agent](#13-coding-agent) (9个)
   - [1.4 低代码平台](#14-低代码平台) (5个)
 - **[二、核心技术](#二核心技术)** (24个)
@@ -47,18 +47,16 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 125.9k | **langchain** | 构建可靠 Agents 的平台 | [🔗](https://github.com/langchain-ai/langchain) |
-| 128.6k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
 | 172.9k | **n8n** | 工作流自动化平台 | [🔗](https://github.com/n8n-io/n8n) |
+| 128.6k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
+| 125.9k | **langchain** | 构建可靠 Agents 的平台 | [🔗](https://github.com/langchain-ai/langchain) |
 | 47.1k | **llama_index** | LLM 数据框架 | [🔗](https://github.com/run-llama/llama_index) |
-| 24.2k | **langgraph** | 构建弹性语言 Agent（图结构） | [🔗](https://github.com/langchain-ai/langgraph) |
 | 44.3k | **crewAI** | 多智能体系统框架 | [🔗](https://github.com/crewAIInc/crewAI) |
 | 37.5k | **agno** | 构建多智能体系统 | [🔗](https://github.com/agno-agi/agno) |
+| 24.2k | **langgraph** | 构建弹性语言 Agent（图结构） | [🔗](https://github.com/langchain-ai/langgraph) |
 | 19.0k | **openai-agents-python** | OpenAI Agents SDK | [🔗](https://github.com/openai/openai-agents-python) |
 | 17.8k | **adk-python** | Google ADK（Agent 开发套件） | [🔗](https://github.com/google/adk-python) |
 | 7.9k | **spring-ai** | Spring AI 工程框架 | [🔗](https://github.com/spring-projects/spring-ai) |
-
-**该分类共 10 个项目**
 
 ### 1.2 推理框架与模型部署
 
@@ -72,8 +70,6 @@
 | 41.5k | **DeepSpeed** | 微软深度学习优化库 | [🔗](https://github.com/deepspeedai/DeepSpeed) |
 | 10.8k | **text-generation-inference** | HuggingFace TGI 推理引擎 | [🔗](https://github.com/huggingface/text-generation-inference) |
 
-**该分类共 7 个项目**
-
 ### 1.3 Coding-Agent
 
 | ⭐ | 名称 | 简介 | 链接 |
@@ -84,20 +80,19 @@
 | 61.1k | **codex** | OpenAI 官方 Coding Agent | [🔗](https://github.com/openai/codex) |
 | 32.4k | **oh-my-opencode** | opencode 最佳增强工具 | [🔗](https://github.com/code-yeongyu/oh-my-opencode) |
 | 21.5k | **vibe-kanban** | 让 Claude Code/Codex 效率提升 10 倍 | [🔗](https://github.com/BloopAI/vibe-kanban) |
-
-**该分类共 6 个项目**
+| - | **claude-code-system-prompts** | Claude Code 系统提示词 | [🔗](https://github.com/Piebald-AI/claude-code-system-prompts) |
+| - | **superpowers** | Claude Code 增强插件 | [🔗](https://github.com/obra/superpowers) |
+| - | **everything-claude-code** | Claude Code 资源合集 | [🔗](https://github.com/affaan-m/everything-claude-code) |
 
 ### 1.4 低代码平台
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 128.6k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
 | 172.9k | **n8n** | 工作流自动化平台 | [🔗](https://github.com/n8n-io/n8n) |
-| 54.2k | **anything-llm** | 一站式 AI 应用（RAG + Agent 构建器） | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
+| 128.6k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
 | 122.8k | **open-webui** | 用户友好 AI 界面（支持 Ollama） | [🔗](https://github.com/open-webui/open-webui) |
+| 54.2k | **anything-llm** | 一站式 AI 应用（RAG + Agent 构建器） | [🔗](https://github.com/Mintplex-Labs/anything-llm) |
 | - | **coze** | 扣子 AI 应用平台 | [🔗](https://www.coze.cn/) |
-
-**该分类共 5 个项目**
 
 ---
 
@@ -126,6 +121,7 @@
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 54.5k | **MinerU** | 开源文档解析工具 | [🔗](https://github.com/opendatalab/MinerU) |
+| - | **unstructured** | 非结构化数据处理 | [🔗](https://github.com/Unstructured-IO/unstructured) |
 
 #### Vector-DB
 
@@ -145,8 +141,8 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 78.0k | **servers** | MCP 官方服务器集合 | [🔗](https://github.com/modelcontextprotocol/servers) |
 | 80.3k | **awesome-mcp-servers** | MCP 服务器精选合集 | [🔗](https://github.com/punkpeye/awesome-mcp-servers) |
+| 78.0k | **servers** | MCP 官方服务器集合 | [🔗](https://github.com/modelcontextprotocol/servers) |
 | 22.6k | **fastmcp** | 快速构建 MCP 服务器（Python） | [🔗](https://github.com/jlowin/fastmcp) |
 
 #### A2A (Agent-to-Agent)
@@ -173,6 +169,7 @@
 |---:|------|------|------|
 | - | **skills (anthropics)** | Anthropic Skills 官方 | [🔗](https://github.com/anthropics/skills) |
 | - | **awesome-claude-skills** | Claude Skills 精选 | [🔗](https://github.com/ComposioHQ/awesome-claude-skills) |
+| - | **antigravity-awesome-skills** | 更多 Skills 资源 | [🔗](https://github.com/sickn33/antigravity-awesome-skills) |
 | - | **skills (openai)** | OpenAI Skills 官方 | [🔗](https://github.com/openai/skills) |
 | - | **spec-kit** | GitHub SDD 规范 | [🔗](https://github.com/github/spec-kit) |
 | - | **skillsmp** | Skills 市场（中文） | [🔗](https://skillsmp.com/zh) |
@@ -191,20 +188,28 @@
 | 106.1k | **generative-ai-for-beginners** | 微软：21 节课入门生成式 AI | [🔗](https://github.com/microsoft/generative-ai-for-beginners) |
 | 74.5k | **llm-course** | 大语言模型入门课程（含路线图和 Colab） | [🔗](https://github.com/mlabonne/llm-course) |
 | 50.0k | **ai-agents-for-beginners** | 微软：12 节课入门 AI Agent | [🔗](https://github.com/microsoft/ai-agents-for-beginners) |
+| 41.0k | **chatgpt-on-wechat** | 基于大模型的超级 AI 助理（多平台接入） | [🔗](https://github.com/zhayujie/chatgpt-on-wechat) |
 | 27.9k | **ai-engineering-hub** | LLM、RAG 和 AI Agent 深度实战教程 | [🔗](https://github.com/patchy631/ai-engineering-hub) |
 | 25.1k | **agents-course** | Hugging Face Agents 官方课程 | [🔗](https://github.com/huggingface/agents-course) |
 | 23.2k | **llm-cookbook** | 面向开发者的 LLM 入门教程（吴恩达中文） | [🔗](https://github.com/datawhalechina/llm-cookbook) |
-| 41.0k | **chatgpt-on-wechat** | 基于大模型的超级 AI 助理（多平台接入） | [🔗](https://github.com/zhayujie/chatgpt-on-wechat) |
 | 23.2k | **llm-action** | 大模型实战项目集合 | [🔗](https://github.com/liguodongiot/llm-action) |
-
-**该分类共 12 个项目，更多详见原文件**
+| 23.2k | **llm-universe** | 小白开发者的大模型应用开发教程 | [🔗](https://github.com/datawhalechina/llm-universe) |
+| - | **hello-agents** | Datawhale Agent 开发入门教程 | [🔗](https://datawhalechina.github.io/hello-agents/#/) |
+| - | **all-in-rag** | Datawhale RAG 技术栈教程 | [🔗](https://datawhalechina.github.io/all-in-rag/#/) |
+| - | **rag-from-scratch** | LangChain 官方 RAG 从零开始教程 | [🔗](https://github.com/langchain-ai/rag-from-scratch) |
+| - | **AgentGuide** | AI Agent 开发指南 | [🔗](https://github.com/adongwanai/AgentGuide) |
+| - | **agents** | Ed Donner 的 AI Agent 教程 | [🔗](https://github.com/ed-donner/agents) |
+| - | **How-to-use-Transformers** | Transformers 库快速入门教程 | [🔗](https://github.com/jsksxs360/How-to-use-Transformers) |
+| - | **awesome-generative-ai-guide** | 生成式 AI 学习资源大全 | [🔗](https://github.com/aishwaryanr/awesome-generative-ai-guide) |
 
 ### 3.2 书籍与笔记
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 36.2k | **Coursera-ML-AndrewNg-Notes** | 吴恩达机器学习课程笔记 | [🔗](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) |
+| - | **deeplearning_ai_books** | 吴恩达深度学习课程笔记 | [🔗](https://github.com/fengdu78/deeplearning_ai_books) |
 | - | **agentic-design-patterns-cn** | 《Agentic Design Patterns》中文版 | [🔗](https://github.com/ginobefun/agentic-design-patterns-cn) |
+| - | **agentic-design-patterns** | Agent 设计模式 | [🔗](https://github.com/xindoo/agentic-design-patterns) |
 | - | **nndl.github.io** | 《神经网络与深度学习》邱锡鹏 | [🔗](https://github.com/nndl/nndl.github.io) |
 
 ### 3.3 学习项目
@@ -212,14 +217,13 @@
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | 92.0k | **awesome-llm-apps** | 精选 LLM 应用合集（OpenAI, Anthropic, Gemini） | [🔗](https://github.com/Shubhamsaboo/awesome-llm-apps) |
-| 24.4k | **500-AI-Agents-Projects** | 500 个 AI Agent 项目集合 | [🔗](https://github.com/ashishpatel26/500-AI-Agents-Projects) |
 | 38.7k | **minimind** | 2 小时从 0 训练 26M 小参数 GPT | [🔗](https://github.com/jingyaogong/minimind) |
-| 15.7k | **dexter** | 自主深度金融研究 Agent | [🔗](https://github.com/virattt/dexter) |
+| 24.4k | **500-AI-Agents-Projects** | 500 个 AI Agent 项目集合 | [🔗](https://github.com/ashishpatel26/500-AI-Agents-Projects) |
+| 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
 | 16.3k | **WeClone** | 从聊天记录创建数字分身 | [🔗](https://github.com/xming521/WeClone) |
+| 15.7k | **dexter** | 自主深度金融研究 Agent | [🔗](https://github.com/virattt/dexter) |
 
 ---
-
-*由于篇幅限制，以下章节简略展示。完整内容见仓库文件。*
 
 ## 四、评估与测试
 
@@ -227,36 +231,109 @@
 |---:|------|------|------|
 | - | **ragas** | Agent/RAG 评估框架 | [🔗](https://github.com/vibrantlabsai/ragas) |
 
+---
+
 ## 五、实用资源
+
+*AI 应用开发中的实用工具和资源，按 Stars 排序*
+
+### 5.1 开发者平台
+
+| ⭐ | 名称 | 简介 | 链接 |
+|---:|------|------|------|
+| - | **AI Studio** | Google AI Studio | [🔗](https://aistudio.google.com) |
+| - | **OpenAI Developers** | OpenAI 开发者平台 | [🔗](https://developers.openai.com) |
+
+### 5.2 GUI工具
+
+| ⭐ | 名称 | 简介 | 链接 |
+|---:|------|------|------|
+| - | **AionUi** | AI 应用 GUI 工具 | [🔗](https://github.com/iOfficeAI/AionUi) |
+
+### 5.3 实用工具
+
+| ⭐ | 名称 | 简介 | 链接 |
+|---:|------|------|------|
+| 47.7k | **TrendRadar** | AI 趋势雷达 | [🔗](https://github.com/sansan0/TrendRadar) |
+| 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
+| - | **zeroclaw** | 快速轻量 AI 助手基础设施 | [🔗](https://github.com/zeroclaw-labs/zeroclaw) |
+| - | **openclaw** | 个人 AI 助手（跨平台） | [🔗](https://github.com/openclaw/openclaw) |
+| - | **crawl4ai** | LLM 友好的开源网页爬虫 | [🔗](https://github.com/unclecode/crawl4ai) |
+| - | **home-assistant** | 开源智能家居平台 | [🔗](https://github.com/home-assistant/core) |
+| - | **vibekanban** | Vibe Kanban 看板 | [🔗](https://www.vibekanban.com/docs) |
+
+### 5.4 AI 媒体生成
+
+| ⭐ | 名称 | 简介 | 链接 |
+|---:|------|------|------|
+| 79.2k | **Deep-Live-Cam** | 实时换脸和一键视频 deepfake | [🔗](https://github.com/hacksider/Deep-Live-Cam) |
+| 49.3k | **MoneyPrinterTurbo** | AI 大模型一键生成高清短视频 | [🔗](https://github.com/harry0703/MoneyPrinterTurbo) |
+| 28.5k | **CopilotKit** | Agents 和生成式 UI 的前端框架 | [🔗](https://github.com/CopilotKit/CopilotKit) |
+| 16.0k | **VideoLingo** | Netflix 级字幕切割、翻译、配音 | [🔗](https://github.com/Huanshere/VideoLingo) |
+| 13.0k | **MoneyPrinterV2** | 自动化在线赚钱流程 | [🔗](https://github.com/FujiwaraChoki/MoneyPrinterV2) |
 
 ### 5.5 金融与交易 AI
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 45.6k | **ai-hedge-fund** | AI 对冲基金团队 | [🔗](https://github.com/virattt/ai-hedge-fund) |
 | 59.8k | **OpenBB** | 金融数据平台（分析师、量化、AI Agent） | [🔗](https://github.com/OpenBB-finance/OpenBB) |
+| 45.6k | **ai-hedge-fund** | AI 对冲基金团队 | [🔗](https://github.com/virattt/ai-hedge-fund) |
 | 29.2k | **TradingAgents** | 多智能体 LLM 金融交易框架 | [🔗](https://github.com/TauricResearch/TradingAgents) |
+| 23.5k | **Open-AutoGLM** | 自动 GUI 操作 Agent | [🔗](https://github.com/zai-org/Open-AutoGLM) |
 | 18.6k | **FinGPT** | 开源金融大语言模型 | [🔗](https://github.com/AI4Finance-Foundation/FinGPT) |
+| - | **TradingAgents-CN** | TradingAgents 中文增强版 | [🔗](https://github.com/hsliuping/TradingAgents-CN) |
+| - | **valuecell** | 社区驱动的多 Agent 金融应用平台 | [🔗](https://github.com/ValueCell-ai/valuecell) |
+| - | **yfinance** | Yahoo Finance 市场数据下载 | [🔗](https://github.com/ranaroussi/yfinance) |
 
 ---
 
 ## 六、开发实践
 
+*工程实践、规范与前沿方法论*
+
+### 6.1 工程博客
+
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
 | - | **claude-cookbooks** | Anthropic 官方 Cookbook | [🔗](https://github.com/anthropics/claude-cookbooks) |
 | - | **OpenAI Cookbook** | OpenAI Agents 专题 | [🔗](https://cookbook.openai.com/topic/agents) |
-| - | **vibe-coding-cn** | Vibe Coding 中文资源 | [🔗](https://github.com/2025Emma/vibe-coding-cn) |
+| - | **Anthropic Engineering** | Anthropic 工程博客 | [🔗](https://www.anthropic.com/engineering) |
 
-## 七、其他资源
+### 6.2 SDD规范
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| - | **openclaw** | 个人 AI 助手（跨平台） | [🔗](https://github.com/openclaw/openclaw) |
-| - | **crawl4ai** | LLM 友好的开源网页爬虫 | [🔗](https://github.com/unclecode/crawl4ai) |
+| - | **spec-kit** | GitHub SDD 规范套件 | [🔗](https://github.com/github/spec-kit) |
+
+### 6.3 Vibe-Coding
+
+| ⭐ | 名称 | 简介 | 链接 |
+|---:|------|------|------|
+| - | **vibe-coding-cn** | Vibe Coding 中文资源 | [🔗](https://github.com/2025Emma/vibe-coding-cn) |
+| - | **awesome-vibe-coding** | Vibe Coding 精选资源 | [🔗](https://github.com/filipecalegario/awesome-vibe-coding/blob/main/README-CN.md) |
+
+---
+
+## 七、其他资源
+
+*源码阅读、社区关注等补充资源*
+
+### 7.1 源码阅读工具
+
+| ⭐ | 名称 | 简介 | 链接 |
+|---:|------|------|------|
 | - | **deepwiki** | AI 源码阅读工具 | [🔗](https://deepwiki.com/) |
+| - | **zread** | AI 代码解读 | [🔗](https://zread.ai/) |
+
+### 7.2 社区关注
+
+| ⭐ | 名称 | 简介 | 链接 |
+|---:|------|------|------|
 | - | **datawhalechina** | Datawhale 开源社区 | [🔗](https://github.com/datawhalechina) |
 | - | **anthropics** | Anthropic 官方 | [🔗](https://github.com/anthropics) |
+| - | **claudecn** | Claude 中文社区 | [🔗](https://claudecn.com/) |
+| - | **openclawcn** | OpenClaw 中文社区 | [🔗](https://openclawcn.com/) |
+| - | **github.blog** | GitHub AI/ML 博客 | [🔗](https://github.blog/ai-and-ml/) |
 
 ---
 

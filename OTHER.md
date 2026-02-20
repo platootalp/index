@@ -6,12 +6,12 @@
 
 ## 📋 目录
 
-- **[一、开发者成长工具](#一开发者成长工具)** (9个)
+- **[一、开发者成长工具](#一开发者成长工具)** (10个)
 - **[二、计算机基础](#二计算机基础)** (4个)
 - **[三、系统设计与架构](#三系统设计与架构)** (5个)
-- **[四、Java 与后端技术](#四java-与后端技术)** (14个)
+- **[四、Java 与后端技术](#四java-与后端技术)** (13个)
 - **[五、算法与面试](#五算法与面试)** (7个)
-- **[六、前端与工具](#六前端与工具)** (4个)
+- **[六、前端与工具](#六前端与工具)** (5个)
 
 ---
 
@@ -30,6 +30,8 @@
 | 62.8k | **resume.github.com** | 基于 GitHub 信息生成简历 | [🔗](https://github.com/resume/resume.github.com) |
 | 45.0k | **GitHubDaily** | 坚持分享 GitHub 上高质量开源技术教程 | [🔗](https://github.com/GitHubDaily/GitHubDaily) |
 
+---
+
 ## 二、计算机基础
 
 | ⭐ | 名称 | 简介 | 链接 |
@@ -38,6 +40,8 @@
 | 153.7k | **JavaGuide** | Java 面试 & 后端通用面试指南 | [🔗](https://github.com/Snailclimb/JavaGuide) |
 | 78.8k | **advanced-java** | 互联网 Java 工程师进阶知识 | [🔗](https://github.com/doocs/advanced-java) |
 | 17.5k | **CS-Base** | 图解计算机网络、操作系统、组成原理、数据库 | [🔗](https://github.com/xiaolincoder/CS-Base) |
+
+---
 
 ## 三、系统设计与架构
 
@@ -48,14 +52,17 @@
 | 40.2k | **system-design** | 学习如何设计大规模系统 | [🔗](https://github.com/karanpratapsingh/system-design) |
 | 12.1k | **awesome-ddd** | DDD、CQRS、事件溯源精选资源 | [🔗](https://github.com/heynickc/awesome-ddd) |
 
+---
+
 ## 四、Java 与后端技术
 
 ### Spring 生态
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 7.9k | **spring-ai** | Spring AI 工程框架 | [🔗](https://github.com/spring-projects/spring-ai) |
 | 9.9k | **spring-reading** | Spring 框架核心概念深入研究 | [🔗](https://github.com/xuchengsheng/spring-reading) |
+| 7.9k | **spring-ai** | Spring AI 工程框架 | [🔗](https://github.com/spring-projects/spring-ai) |
+| 8.4k | **spring-ai-alibaba** | 面向 Java 开发者的 Agentic AI 框架 | [🔗](https://github.com/alibaba/spring-ai-alibaba) |
 
 ### 架构与设计模式
 
@@ -78,6 +85,9 @@
 | 153.7k | **JavaGuide** | Java 面试 & 后端通用面试指南 | [🔗](https://github.com/Snailclimb/JavaGuide) |
 | 64.9k | **TheAlgorithms/Java** | All Algorithms implemented in Java | [🔗](https://github.com/TheAlgorithms/Java) |
 | 6.9k | **technical-books** | 互联网技术大牛书籍整理 | [🔗](https://github.com/doocs/technical-books) |
+| 1.8k | **java-books** | 程序员常读书单整理（附下载） | [🔗](https://github.com/Tyson0314/java-books) |
+
+---
 
 ## 五、算法与面试
 
@@ -86,8 +96,11 @@
 | 122.1k | **hello-algo** | 《Hello 算法》：动画图解数据结构与算法 | [🔗](https://github.com/krahets/hello-algo) |
 | 76.7k | **LeetCodeAnimation** | 用动画呈现解 LeetCode 题目的思路 | [🔗](https://github.com/MisterBooo/LeetCodeAnimation) |
 | 60.2k | **leetcode-master** | 《代码随想录》LeetCode 刷题攻略 | [🔗](https://github.com/youngyangyang04/leetcode-master) |
+| 64.9k | **TheAlgorithms/Java** | All Algorithms implemented in Java | [🔗](https://github.com/TheAlgorithms/Java) |
 | 25.4k | **OI-wiki** | OI / ICPC 竞赛 Wiki | [🔗](https://github.com/OI-wiki/OI-wiki) |
 | 8.1k | **codeforces-go** | 算法竞赛模板库 by 灵茶山艾府 | [🔗](https://github.com/EndlessCheng/codeforces-go) |
+
+---
 
 ## 六、前端与工具
 
@@ -97,6 +110,7 @@
 | 47.7k | **type-challenges** | TypeScript 类型挑战集合 | [🔗](https://github.com/type-challenges/type-challenges) |
 | 32.6k | **YesPlayMusic** | 高颜值第三方网易云播放器 | [🔗](https://github.com/qier222/YesPlayMusic) |
 | 11.8k | **TranslationPlugin** | IntelliJ IDEA 翻译插件 | [🔗](https://github.com/YiiGuxing/TranslationPlugin) |
+| 7.0k | **workout-cool** | 🏋 现代开源健身平台 | [🔗](https://github.com/Snouzy/workout-cool) |
 
 ---
 
@@ -107,10 +121,10 @@
 | 开发者成长工具 | 10 个 |
 | 计算机基础 | 4 个 |
 | 系统设计与架构 | 5 个 |
-| Java 与后端技术 | 12 个 |
+| Java 与后端技术 | 13 个 |
 | 算法与面试 | 7 个 |
-| 前端与工具 | 4 个 |
-| **总计** | **42+ 个** |
+| 前端与工具 | 5 个 |
+| **总计** | **44 个** |
 
 ---
 
