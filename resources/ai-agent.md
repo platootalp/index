@@ -15,7 +15,7 @@
 - 🔧 **[通用开发资源](OTHER.md)** - 44 个
 
 ### 2️⃣ AI 新闻订阅
-每日自动采集的 AI 领域重要动态，保存于 [`../memory/ai-news/`](../memory/ai-news/) 目录。
+每日自动采集的 AI 领域重要动态，保存于 [`../ai-news/`](../ai-news/) 目录。
 
 - 📰 每日更新
 - 🤖 自动生成摘要
@@ -340,10 +340,10 @@
 
 | 日期 | 内容 |
 |------|------|
-| [2026-02-20](../memory/ai-news/2026-02-20.md) | OpenAI/Anthropic 对抗、Nvidia 合作破裂、MIT 研究 |
-| [2026-02-19](../memory/ai-news/2026-02-19.md) | 早期新闻归档 |
+| [2026-02-20](../ai-news/2026-02-20.md) | OpenAI/Anthropic 对抗、Nvidia 合作破裂、MIT 研究 |
+| [2026-02-19](../ai-news/2026-02-19.md) | 早期新闻归档 |
 
-📁 **完整存档**: [../memory/ai-news/](../memory/ai-news/)
+📁 **完整存档**: [../ai-news/](../ai-news/)
 
 **自动化工具**: [../tools/tavily-search.sh](../tools/tavily-search.sh) - Tavily API 新闻采集
 
