@@ -22,17 +22,37 @@ https://github.com/liguodongiot/llm-action
 
 https://github.com/aishwaryanr/awesome-generative-ai-guide
 
-### 1.2 书籍
+https://github.com/datawhalechina/llm-cookbook
+
+https://github.com/datawhalechina/llm-universe
+
+https://github.com/jsksxs360/How-to-use-Transformers
+
+https://github.com/microsoft/generative-ai-for-beginners
+
+https://github.com/microsoft/ai-agents-for-beginners
+
+https://github.com/huggingface/agents-course
+
+### 1.2 书籍与笔记
 
 https://github.com/ginobefun/agentic-design-patterns-cn
 
 https://github.com/xindoo/agentic-design-patterns
+
+https://github.com/fengdu78/deeplearning_ai_books
+
+https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes
+
+https://github.com/nndl/nndl.github.io
 
 ### 1.3 学习项目
 
 https://github.com/Shubhamsaboo/awesome-llm-apps
 
 https://github.com/ashishpatel26/500-AI-Agents-Projects
+
+https://github.com/jingyaogong/minimind
 
 ## 二、核心技术
 
@@ -58,7 +78,7 @@ https://github.com/opendatalab/MinerU
 
 https://github.com/Unstructured-IO/unstructured
 
-### 2.2.3 Vector-DB
+#### 2.2.3 Vector-DB
 
 https://github.com/milvus-io/milvus
 
@@ -73,6 +93,8 @@ https://github.com/mem0ai/mem0
 https://github.com/modelcontextprotocol/servers
 
 https://github.com/jlowin/fastmcp
+
+https://github.com/punkpeye/awesome-mcp-servers
 
 #### A2A
 
@@ -118,9 +140,19 @@ https://github.com/openai/openai-agents-python
 
 https://github.com/google/adk-python
 
-### 3.2 推理框架
+### 3.2 推理框架与模型部署
 
 https://github.com/huggingface/text-generation-inference
+
+https://github.com/huggingface/transformers
+
+https://github.com/ollama/ollama
+
+https://github.com/vllm-project/vllm
+
+https://github.com/unslothai/unsloth
+
+https://github.com/deepspeedai/DeepSpeed
 
 ### 3.3 Coding-Agent
 
@@ -132,6 +164,10 @@ https://github.com/openai/codex
 
 https://github.com/google-gemini/gemini-cli
 
+https://github.com/Piebald-AI/claude-code-system-prompts
+
+https://github.com/BloopAI/vibe-kanban
+
 #### plugin
 
 https://github.com/code-yeongyu/oh-my-opencode
@@ -142,7 +178,6 @@ https://github.com/affaan-m/everything-claude-code
 
 https://github.com/thedotmack/claude-mem
 
-
 ### 3.4 低代码平台
 
 https://github.com/langgenius/dify
@@ -150,6 +185,10 @@ https://github.com/langgenius/dify
 https://github.com/n8n-io/n8n
 
 https://www.coze.cn/
+
+https://github.com/Mintplex-Labs/anything-llm
+
+https://github.com/open-webui/open-webui
 
 ## 四、评估与测试
 
@@ -181,7 +220,43 @@ https://github.com/sansan0/TrendRadar
 
 https://www.vibekanban.com/docs
 
-### 5.4 金融工具
+https://github.com/zhayujie/chatgpt-on-wechat
+
+https://github.com/zeroclaw-labs/zeroclaw
+
+https://github.com/unclecode/crawl4ai
+
+https://github.com/CopilotKit/CopilotKit
+
+### 5.4 AI 媒体生成
+
+https://github.com/Huanshere/VideoLingo
+
+https://github.com/xming521/WeClone
+
+https://github.com/hacksider/Deep-Live-Cam
+
+https://github.com/harry0703/MoneyPrinterTurbo
+
+https://github.com/FujiwaraChoki/MoneyPrinterV2
+
+### 5.5 金融与交易 AI
+
+https://github.com/virattt/ai-hedge-fund
+
+https://github.com/TauricResearch/TradingAgents
+
+https://github.com/hsliuping/TradingAgents-CN
+
+https://github.com/AI4Finance-Foundation/FinGPT
+
+https://github.com/OpenBB-finance/OpenBB
+
+https://github.com/ValueCell-ai/valuecell
+
+https://github.com/ranaroussi/yfinance
+
+https://github.com/virattt/dexter
 
 ## 六、开发实践
 
@@ -222,7 +297,3 @@ https://claudecn.com/
 https://openclawcn.com/
 
 https://github.blog/ai-and-ml/
-
-
-
-
