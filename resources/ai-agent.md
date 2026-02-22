@@ -60,11 +60,11 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 172.9k | **n8n** | 工作流自动化平台 | [🔗](https://github.com/n8n-io/n8n) |
-| 128.6k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
-| 125.9k | **langchain** | 构建可靠 Agents 的平台 | [🔗](https://github.com/langchain-ai/langchain) |
+| 175.7k | **n8n** | 工作流自动化平台 | [🔗](https://github.com/n8n-io/n8n) |
+| 130.0k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
+| 127.1k | **langchain** | 构建可靠 Agents 的平台 | [🔗](https://github.com/langchain-ai/langchain) |
 | 47.1k | **llama_index** | LLM 数据框架 | [🔗](https://github.com/run-llama/llama_index) |
-| 44.3k | **crewAI** | 多智能体系统框架 | [🔗](https://github.com/crewAIInc/crewAI) |
+| 44.4k | **crewAI** | 多智能体系统框架 | [🔗](https://github.com/crewAIInc/crewAI) |
 | 37.5k | **agno** | 构建多智能体系统 | [🔗](https://github.com/agno-agi/agno) |
 | 24.2k | **langgraph** | 构建弹性语言 Agent（图结构） | [🔗](https://github.com/langchain-ai/langgraph) |
 | 19.0k | **openai-agents-python** | OpenAI Agents SDK | [🔗](https://github.com/openai/openai-agents-python) |
@@ -74,8 +74,8 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 163.0k | **ollama** | 本地运行大模型（Kimi, DeepSeek, Qwen 等） | [🔗](https://github.com/ollama/ollama) |
-| 156.1k | **transformers** | Transformers 模型定义框架 | [🔗](https://github.com/huggingface/transformers) |
+| 163.1k | **ollama** | 本地运行大模型（Kimi, DeepSeek, Qwen 等） | [🔗](https://github.com/ollama/ollama) |
+| 156.8k | **transformers** | Transformers 模型定义框架 | [🔗](https://github.com/huggingface/transformers) |
 | 122.8k | **open-webui** | 用户友好 AI 界面（支持 Ollama） | [🔗](https://github.com/open-webui/open-webui) |
 | 69.4k | **vllm** | 高性能 LLM 推理和服务引擎 | [🔗](https://github.com/vllm-project/vllm) |
 | 51.6k | **unsloth** | 快速微调 LLM（提速 2 倍，显存减少 70%） | [🔗](https://github.com/unslothai/unsloth) |
@@ -121,7 +121,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 73.4k | **ragflow** | 开源 RAG 引擎 | [🔗](https://github.com/infiniflow/ragflow) |
+| 73.5k | **ragflow** | 开源 RAG 引擎 | [🔗](https://github.com/infiniflow/ragflow) |
 | 31.0k | **graphrag** | 微软 GraphRAG | [🔗](https://github.com/microsoft/graphrag) |
 
 #### 文档处理
