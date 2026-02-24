@@ -9,9 +9,9 @@
 本仓库是 **Agent 开发工程师的学习资源索引**，包含两大部分：
 
 ### 1️⃣ 资源索引
-系统整理的 AI/Agent 开发资源，涵盖框架、工具、教程、项目等 **150+ 精选资源**，每个资源都标注了 GitHub Stars 并按热度排序。
+系统整理的 AI/Agent 开发资源，涵盖框架、工具、教程、项目等 **160+ 精选资源**，每个资源都标注了 GitHub Stars 并按热度排序。
 
-- 🤖 **AI/Agent 资源**（本文件）- 155+ 个
+- 🤖 **AI/Agent 资源**（本文件）- 157+ 个
 - 🔧 **[通用开发资源](OTHER.md)** - 44 个
 
 ### 2️⃣ AI 新闻订阅
@@ -20,7 +20,7 @@
 ## 📋 目录
 
 - **[一、开发工具与框架](#一开发工具与框架)** (28个)
-  - [1.1 开发框架](#11-开发框架) (10个)
+  - [1.1 开发框架](#11-开发框架) (12个)
   - [1.2 推理框架与模型部署](#12-推理框架与模型部署) (7个)
   - [1.3 Coding-Agent](#13-coding-agent) (9个)
   - [1.4 低代码平台](#14-低代码平台) (5个)
@@ -67,8 +67,10 @@
 | 44.4k | **crewAI** | 多智能体系统框架 | [🔗](https://github.com/crewAIInc/crewAI) |
 | 37.5k | **agno** | 构建多智能体系统 | [🔗](https://github.com/agno-agi/agno) |
 | 24.2k | **langgraph** | 构建弹性语言 Agent（图结构） | [🔗](https://github.com/langchain-ai/langgraph) |
+| 21.0k | **ai (vercel)** | TypeScript AI 工具包，Next.js 团队出品 | [🔗](https://github.com/vercel/ai) |
 | 19.0k | **openai-agents-python** | OpenAI Agents SDK | [🔗](https://github.com/openai/openai-agents-python) |
 | 17.8k | **adk-python** | Google ADK（Agent 开发套件） | [🔗](https://github.com/google/adk-python) |
+| 8.0k | **spring-ai-alibaba** | 阿里巴巴 Java Agentic AI 框架 | [🔗](https://github.com/alibaba/spring-ai-alibaba) |
 
 ### 1.2 推理框架与模型部署
 
