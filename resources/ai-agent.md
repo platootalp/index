@@ -60,11 +60,11 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 175.7k | **n8n** | 工作流自动化平台 | [🔗](https://github.com/n8n-io/n8n) |
-| 130.0k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
-| 127.1k | **langchain** | 构建可靠 Agents 的平台 | [🔗](https://github.com/langchain-ai/langchain) |
+| 176.6k | **n8n** | 工作流自动化平台 | [🔗](https://github.com/n8n-io/n8n) |
+| 130.5k | **dify** | LLM 应用开发平台 | [🔗](https://github.com/langgenius/dify) |
+| 127.6k | **langchain** | 构建可靠 Agents 的平台 | [🔗](https://github.com/langchain-ai/langchain) |
 | 47.1k | **llama_index** | LLM 数据框架 | [🔗](https://github.com/run-llama/llama_index) |
-| 44.4k | **crewAI** | 多智能体系统框架 | [🔗](https://github.com/crewAIInc/crewAI) |
+| 44.7k | **crewAI** | 多智能体系统框架 | [🔗](https://github.com/crewAIInc/crewAI) |
 | 37.5k | **agno** | 构建多智能体系统 | [🔗](https://github.com/agno-agi/agno) |
 | 24.2k | **langgraph** | 构建弹性语言 Agent（图结构） | [🔗](https://github.com/langchain-ai/langgraph) |
 | 21.0k | **ai (vercel)** | TypeScript AI 工具包，Next.js 团队出品 | [🔗](https://github.com/vercel/ai) |
@@ -76,7 +76,7 @@
 
 | ⭐ | 名称 | 简介 | 链接 |
 |---:|------|------|------|
-| 163.1k | **ollama** | 本地运行大模型（Kimi, DeepSeek, Qwen 等） | [🔗](https://github.com/ollama/ollama) |
+| 163.5k | **ollama** | 本地运行大模型（Kimi, DeepSeek, Qwen 等） | [🔗](https://github.com/ollama/ollama) |
 | 156.8k | **transformers** | Transformers 模型定义框架 | [🔗](https://github.com/huggingface/transformers) |
 | 122.8k | **open-webui** | 用户友好 AI 界面（支持 Ollama） | [🔗](https://github.com/open-webui/open-webui) |
 | 69.4k | **vllm** | 高性能 LLM 推理和服务引擎 | [🔗](https://github.com/vllm-project/vllm) |
