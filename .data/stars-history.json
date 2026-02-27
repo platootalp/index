@@ -1,0 +1,606 @@
+{
+  "repos": [
+    {
+      "name": "langchain-ai/langchain",
+      "stars": 127569,
+      "lang": "Python",
+      "desc": "🦜🔗 The platform for reliable agents."
+    },
+    {
+      "name": "OthmanAdi/planning-with-files",
+      "stars": 14659,
+      "lang": "Python",
+      "desc": "Claude Code skill implementing Manus-style persistent markdown planning — the workflow pattern behind the $2B acquisition."
+    },
+    {
+      "name": "shareAI-lab/learn-claude-code",
+      "stars": 18750,
+      "lang": "TypeScript",
+      "desc": "Bash is all you need -  A nano Claude Code–like agent, built from 0 to 1"
+    },
+    {
+      "name": "anthropics/claude-quickstarts",
+      "stars": 14860,
+      "lang": "Python",
+      "desc": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API"
+    },
+    {
+      "name": "muratcankoylan/Agent-Skills-for-Context-Engineering",
+      "stars": 11767,
+      "lang": "Python",
+      "desc": "A comprehensive collection of Agent Skills for context engineering, multi-agent architectures, and production agent systems. Use when building, optimizing, or debugging agent systems that require effective context management."
+    },
+    {
+      "name": "NevaMind-AI/memU",
+      "stars": 11079,
+      "lang": "Python",
+      "desc": "Memory for 24/7 proactive agents like openclaw (moltbot, clawdbot)."
+    },
+    {
+      "name": "VectifyAI/PageIndex",
+      "stars": 18404,
+      "lang": "Python",
+      "desc": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG"
+    },
+    {
+      "name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": 125175,
+      "lang": null,
+      "desc": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models"
+    },
+    {
+      "name": "obra/superpowers",
+      "stars": 63434,
+      "lang": "Shell",
+      "desc": "An agentic skills framework & software development methodology that works."
+    },
+    {
+      "name": "vercel/ai",
+      "stars": 22084,
+      "lang": "TypeScript",
+      "desc": "The AI Toolkit for TypeScript. From the creators of Next.js, the AI SDK is a free open-source library for building AI-powered applications and agents "
+    },
+    {
+      "name": "different-ai/openwork",
+      "stars": 10558,
+      "lang": "TypeScript",
+      "desc": "An open-source alternative to Claude Cowork built for teams, powered by opencode"
+    },
+    {
+      "name": "NoeFabris/opencode-antigravity-auth",
+      "stars": 8900,
+      "lang": "TypeScript",
+      "desc": "Enable Opencode to authenticate against Antigravity (Google's IDE) via OAuth so you can use Antigravity rate limits and access models like gemini-3-pro and claude-opus-4-5-thinking with your Google credentials."
+    },
+    {
+      "name": "xuchengsheng/spring-reading",
+      "stars": 9912,
+      "lang": "Java",
+      "desc": "涵盖了 Spring 框架的核心概念和关键功能，包括控制反转（IOC）容器的使用，面向切面编程（AOP）的原理与实践，事务管理的方式与实现，Spring MVC 的流程与控制器工作机制，以及 Spring 中数据访问、安全、Boot 自动配置等方面的深入研究。此外，它还包含了 Spring 事件机制的应用、高级主题如缓存抽象和响应式编程，以及对 Spring 源码的编程风格与设计模式的深入探讨。"
+    },
+    {
+      "name": "ValueCell-ai/valuecell",
+      "stars": 9301,
+      "lang": "Python",
+      "desc": "ValueCell is a community-driven, multi-agent platform for financial applications."
+    },
+    {
+      "name": "openai/skills",
+      "stars": 9935,
+      "lang": "Python",
+      "desc": "Skills Catalog for Codex"
+    },
+    {
+      "name": "EndlessCheng/codeforces-go",
+      "stars": 8124,
+      "lang": "Go",
+      "desc": "算法竞赛模板库 by 灵茶山艾府 💭💡🎈"
+    },
+    {
+      "name": "spring-projects/spring-ai",
+      "stars": 7974,
+      "lang": "Java",
+      "desc": "An Application Framework for AI Engineering"
+    },
+    {
+      "name": "langchain-ai/rag-from-scratch",
+      "stars": 7459,
+      "lang": "Jupyter Notebook",
+      "desc": null
+    },
+    {
+      "name": "ginobefun/agentic-design-patterns-cn",
+      "stars": 7554,
+      "lang": "Python",
+      "desc": "《Agentic Design Patterns》中文翻译版"
+    },
+    {
+      "name": "Snouzy/workout-cool",
+      "stars": 7042,
+      "lang": "TypeScript",
+      "desc": "🏋 Modern open-source fitness coaching platform. Create workout plans, track progress, and access a comprehensive exercise database."
+    },
+    {
+      "name": "doocs/technical-books",
+      "stars": 6875,
+      "lang": "JavaScript",
+      "desc": "😆 国内外互联网技术大牛们都写了哪些书籍：计算机基础、网络、前端、后端、数据库、架构、大数据、深度学习..."
+    },
+    {
+      "name": "zai-org/Open-AutoGLM",
+      "stars": 23770,
+      "lang": "Python",
+      "desc": "An Open Phone Agent Model & Framework. Unlocking the AI Phone for Everyone"
+    },
+    {
+      "name": "vibrantlabsai/ragas",
+      "stars": 12731,
+      "lang": "Python",
+      "desc": "Supercharge Your LLM Application Evaluations 🚀"
+    },
+    {
+      "name": "sickn33/antigravity-awesome-skills",
+      "stars": 16070,
+      "lang": "Python",
+      "desc": "The Ultimate Collection of 900+ Agentic Skills for Claude Code/Antigravity/Cursor. Battle-tested, high-performance skills for AI agents including official skills from Anthropic and Vercel."
+    },
+    {
+      "name": "sansan0/TrendRadar",
+      "stars": 47385,
+      "lang": "Python",
+      "desc": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。"
+    },
+    {
+      "name": "run-llama/llama_index",
+      "stars": 47222,
+      "lang": "Python",
+      "desc": "LlamaIndex is the leading document agent and OCR platform"
+    },
+    {
+      "name": "opendatalab/MinerU",
+      "stars": 55063,
+      "lang": "Python",
+      "desc": "Transforms complex documents like PDFs into LLM-ready markdown/JSON for your Agentic workflows."
+    },
+    {
+      "name": "infiniflow/ragflow",
+      "stars": 73794,
+      "lang": "Python",
+      "desc": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    },
+    {
+      "name": "iOfficeAI/AionUi",
+      "stars": 17175,
+      "lang": "TypeScript",
+      "desc": "Free, local, open-source 24/7 Cowork app and OpenClaw for Gemini CLI, Claude Code, Codex, OpenCode, Qwen Code, Goose CLI, Auggie, and more | 🌟 Star if you like it!"
+    },
+    {
+      "name": "huggingface/text-generation-inference",
+      "stars": 10786,
+      "lang": "Python",
+      "desc": "Large Language Model Text Generation Inference"
+    },
+    {
+      "name": "google/adk-python",
+      "stars": 18005,
+      "lang": "Python",
+      "desc": "An open-source, code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents with flexibility and control."
+    },
+    {
+      "name": "google-gemini/gemini-cli",
+      "stars": 95817,
+      "lang": "TypeScript",
+      "desc": "An open-source AI agent that brings the power of Gemini directly into your terminal."
+    },
+    {
+      "name": "github/spec-kit",
+      "stars": 72350,
+      "lang": "Python",
+      "desc": "💫 Toolkit to help you get started with Spec-Driven Development"
+    },
+    {
+      "name": "datawhalechina/hello-agents",
+      "stars": 22640,
+      "lang": "Python",
+      "desc": "📚 《从零开始构建智能体》——从零开始的智能体原理与实践教程"
+    },
+    {
+      "name": "crewAIInc/crewAI",
+      "stars": 44700,
+      "lang": "Python",
+      "desc": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks."
+    },
+    {
+      "name": "ashishpatel26/500-AI-Agents-Projects",
+      "stars": 24860,
+      "lang": null,
+      "desc": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more."
+    },
+    {
+      "name": "anthropics/skills",
+      "stars": 77411,
+      "lang": "Python",
+      "desc": "Public repository for Agent Skills"
+    },
+    {
+      "name": "anthropics/claude-cookbooks",
+      "stars": 33514,
+      "lang": "Jupyter Notebook",
+      "desc": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude."
+    },
+    {
+      "name": "anthropics/claude-code",
+      "stars": 70622,
+      "lang": "Shell",
+      "desc": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands."
+    },
+    {
+      "name": "anomalyco/opencode",
+      "stars": 111748,
+      "lang": "TypeScript",
+      "desc": "The open source coding agent."
+    },
+    {
+      "name": "aishwaryanr/awesome-generative-ai-guide",
+      "stars": 24901,
+      "lang": "HTML",
+      "desc": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!"
+    },
+    {
+      "name": "agno-agi/agno",
+      "stars": 38214,
+      "lang": "Python",
+      "desc": "The programming language for agentic software. Build, run, and manage multi-agent systems at scale."
+    },
+    {
+      "name": "affaan-m/everything-claude-code",
+      "stars": 53360,
+      "lang": "JavaScript",
+      "desc": "Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner."
+    },
+    {
+      "name": "a2aproject/A2A",
+      "stars": 22129,
+      "lang": "Shell",
+      "desc": "Agent2Agent (A2A) is an open protocol enabling communication and interoperability between opaque agentic applications."
+    },
+    {
+      "name": "Unstructured-IO/unstructured",
+      "stars": 14066,
+      "lang": "HTML",
+      "desc": "Convert documents to structured data effortlessly. Unstructured is open-source ETL solution for transforming complex documents into clean, structured formats for language models.  Visit our website to learn more about our enterprise grade Platform product for production grade workflows, partitioning, enrichments, chunking and embedding."
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "stars": 38111,
+      "lang": "Python",
+      "desc": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows"
+    },
+    {
+      "name": "Alibaba-NLP/DeepResearch",
+      "stars": 18291,
+      "lang": "Python",
+      "desc": "Tongyi Deep Research, the Leading Open-source Deep Research Agent"
+    },
+    {
+      "name": "2025Emma/vibe-coding-cn",
+      "stars": 12805,
+      "lang": "Python",
+      "desc": null
+    },
+    {
+      "name": "zeroclaw-labs/zeroclaw",
+      "stars": 19903,
+      "lang": "Rust",
+      "desc": "Fast, small, and fully autonomous AI assistant infrastructure — deploy anywhere, swap anything 🦀"
+    },
+    {
+      "name": "code-yeongyu/oh-my-opencode",
+      "stars": 34779,
+      "lang": "TypeScript",
+      "desc": "the best agent harness"
+    },
+    {
+      "name": "openclaw/openclaw",
+      "stars": 233191,
+      "lang": "TypeScript",
+      "desc": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 "
+    },
+    {
+      "name": "Shubhamsaboo/awesome-llm-apps",
+      "stars": 97247,
+      "lang": "Python",
+      "desc": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models."
+    },
+    {
+      "name": "virattt/dexter",
+      "stars": 16588,
+      "lang": "TypeScript",
+      "desc": "An autonomous agent for deep financial research"
+    },
+    {
+      "name": "BloopAI/vibe-kanban",
+      "stars": 21978,
+      "lang": "Rust",
+      "desc": "Get 10X more out of Claude Code, Codex or any coding agent"
+    },
+    {
+      "name": "anomalyco/models.dev",
+      "stars": 2792,
+      "lang": "TypeScript",
+      "desc": "An open-source database of AI models."
+    },
+    {
+      "name": "artidoro/qlora",
+      "stars": 10840,
+      "lang": "Jupyter Notebook",
+      "desc": "QLoRA: Efficient Finetuning of Quantized LLMs"
+    },
+    {
+      "name": "unslothai/unsloth",
+      "stars": 52794,
+      "lang": "Python",
+      "desc": "Fine-tuning & Reinforcement Learning for LLMs. 🦥 Train OpenAI gpt-oss, DeepSeek, Qwen, Llama, Gemma, TTS 2x faster with 70% less VRAM."
+    },
+    {
+      "name": "type-challenges/type-challenges",
+      "stars": 47710,
+      "lang": "TypeScript",
+      "desc": "Collection of TypeScript type challenges with online judge"
+    },
+    {
+      "name": "hsliuping/TradingAgents-CN",
+      "stars": 17884,
+      "lang": "Python",
+      "desc": "基于多智能体LLM的中文金融交易框架 - TradingAgents中文增强版"
+    },
+    {
+      "name": "TauricResearch/TradingAgents",
+      "stars": 30828,
+      "lang": "Python",
+      "desc": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+    },
+    {
+      "name": "AI4Finance-Foundation/FinGPT",
+      "stars": 18685,
+      "lang": "Jupyter Notebook",
+      "desc": "FinGPT: Open-Source Financial Large Language Models!  Revolutionize 🔥    We release the trained model on HuggingFace."
+    },
+    {
+      "name": "ranaroussi/yfinance",
+      "stars": 21812,
+      "lang": "Python",
+      "desc": "Download market data from Yahoo! Finance's API"
+    },
+    {
+      "name": "anuraghazra/github-readme-stats",
+      "stars": 78546,
+      "lang": "JavaScript",
+      "desc": ":zap: Dynamically generated stats for your github readmes"
+    },
+    {
+      "name": "resume/resume.github.com",
+      "stars": 62802,
+      "lang": "JavaScript",
+      "desc": "Resumes generated using the GitHub informations"
+    },
+    {
+      "name": "NateScarlet/holiday-cn",
+      "stars": 1828,
+      "lang": "Python",
+      "desc": "📅🇨🇳中国法定节假日数据 自动每日抓取国务院公告"
+    },
+    {
+      "name": "CopilotKit/CopilotKit",
+      "stars": 29055,
+      "lang": "TypeScript",
+      "desc": "The Frontend for Agents & Generative UI. React + Angular"
+    },
+    {
+      "name": "unclecode/crawl4ai",
+      "stars": 61055,
+      "lang": "Python",
+      "desc": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN"
+    },
+    {
+      "name": "public-apis/public-apis",
+      "stars": 400580,
+      "lang": "Python",
+      "desc": "A collective list of free APIs"
+    },
+    {
+      "name": "harry0703/MoneyPrinterTurbo",
+      "stars": 49680,
+      "lang": "Python",
+      "desc": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM."
+    },
+    {
+      "name": "xming521/WeClone",
+      "stars": 16358,
+      "lang": "Python",
+      "desc": "🚀 One-stop solution for creating your digital avatar from chat history 💡 Fine-tune LLMs with your chat logs to capture your unique style, then bind to a chatbot to bring your digital self to life.  从聊天记录创造数字分身的一站式解决方案  "
+    },
+    {
+      "name": "karanpratapsingh/system-design",
+      "stars": 41003,
+      "lang": null,
+      "desc": "Learn how to design systems at scale and prepare for system design interviews"
+    },
+    {
+      "name": "huggingface/agents-course",
+      "stars": 25581,
+      "lang": "MDX",
+      "desc": "This repository contains the Hugging Face Agents Course. "
+    },
+    {
+      "name": "hacksider/Deep-Live-Cam",
+      "stars": 79694,
+      "lang": "Python",
+      "desc": "real time face swap and one-click video deepfake with only a single image"
+    },
+    {
+      "name": "ollama/ollama",
+      "stars": 163523,
+      "lang": "Go",
+      "desc": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "name": "dwyl/english-words",
+      "stars": 11951,
+      "lang": "Python",
+      "desc": ":memo: A text file containing 479k English words for all your dictionary/word-based projects e.g: auto-completion / autosuggestion"
+    },
+    {
+      "name": "huggingface/transformers",
+      "stars": 157047,
+      "lang": "Python",
+      "desc": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "name": "huggingface/notebooks",
+      "stars": 4472,
+      "lang": "Jupyter Notebook",
+      "desc": "Notebooks using the Hugging Face libraries 🤗"
+    },
+    {
+      "name": "microsoft/generative-ai-for-beginners",
+      "stars": 107120,
+      "lang": "Jupyter Notebook",
+      "desc": "21 Lessons, Get Started Building with Generative AI "
+    },
+    {
+      "name": "xiaolincoder/CS-Base",
+      "stars": 17561,
+      "lang": null,
+      "desc": "图解计算机网络、操作系统、计算机组成、数据库，共 1000 张图 + 50 万字，破除晦涩难懂的计算机基础知识，让天下没有难懂的八股文！🚀 在线阅读：https://xiaolincoding.com  "
+    },
+    {
+      "name": "ant-design/ant-design-landing",
+      "stars": 6498,
+      "lang": "JavaScript",
+      "desc": ":mountain_bicyclist: Landing Pages of Ant Design System"
+    },
+    {
+      "name": "ant-design/ant-design-pro",
+      "stars": 37955,
+      "lang": "TypeScript",
+      "desc": "👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!"
+    },
+    {
+      "name": "microsoft/ai-agents-for-beginners",
+      "stars": 51381,
+      "lang": "Jupyter Notebook",
+      "desc": "12 Lessons to Get Started Building AI Agents"
+    },
+    {
+      "name": "girafe-ai/ml-course",
+      "stars": 3432,
+      "lang": "Jupyter Notebook",
+      "desc": "Open Machine Learning course"
+    },
+    {
+      "name": "punkpeye/awesome-mcp-servers",
+      "stars": 81662,
+      "lang": null,
+      "desc": "A collection of MCP servers."
+    },
+    {
+      "name": "patchy631/ai-engineering-hub",
+      "stars": 30775,
+      "lang": "Jupyter Notebook",
+      "desc": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications."
+    },
+    {
+      "name": "OpenBB-finance/OpenBB",
+      "stars": 62214,
+      "lang": "Python",
+      "desc": "Financial data platform for analysts, quants and AI agents."
+    },
+    {
+      "name": "ByteByteGoHq/system-design-101",
+      "stars": 79844,
+      "lang": null,
+      "desc": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews."
+    },
+    {
+      "name": "deepspeedai/DeepSpeed",
+      "stars": 41680,
+      "lang": "Python",
+      "desc": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+    },
+    {
+      "name": "vllm-project/vllm",
+      "stars": 71321,
+      "lang": "Python",
+      "desc": "A high-throughput and memory-efficient inference and serving engine for LLMs"
+    },
+    {
+      "name": "langchain4j/langchain4j-examples",
+      "stars": 1476,
+      "lang": "Java",
+      "desc": null
+    },
+    {
+      "name": "datawhalechina/llm-universe",
+      "stars": 11986,
+      "lang": "Jupyter Notebook",
+      "desc": "本项目是一个面向小白开发者的大模型应用开发教程，在线阅读地址：https://datawhalechina.github.io/llm-universe/"
+    },
+    {
+      "name": "kamranahmedse/developer-roadmap",
+      "stars": 349819,
+      "lang": "TypeScript",
+      "desc": "Interactive roadmaps, guides and other educational content to help developers grow in their careers."
+    },
+    {
+      "name": "virattt/ai-hedge-fund",
+      "stars": 45948,
+      "lang": "Python",
+      "desc": "An AI Hedge Fund Team"
+    },
+    {
+      "name": "spring-ai-alibaba/examples",
+      "stars": 2342,
+      "lang": "Java",
+      "desc": "Examples demonstrating usage of Spring AI & Spring AI Alibaba 📜"
+    },
+    {
+      "name": "vitejs/vite",
+      "stars": 78448,
+      "lang": "TypeScript",
+      "desc": "Next generation frontend tooling. It's fast!"
+    },
+    {
+      "name": "jingyaogong/minimind",
+      "stars": 39974,
+      "lang": "Python",
+      "desc": "🚀🚀 「大模型」2小时完全从0训练26M的小参数GPT！🌏 Train a 26M-parameter GPT from scratch in just 2h!"
+    },
+    {
+      "name": "YiiGuxing/TranslationPlugin",
+      "stars": 11772,
+      "lang": "Kotlin",
+      "desc": "Translation plugin for IntelliJ-based IDEs/Android Studio."
+    },
+    {
+      "name": "MisterBooo/LeetCodeAnimation",
+      "stars": 76720,
+      "lang": "Java",
+      "desc": "Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）"
+    },
+    {
+      "name": "FujiwaraChoki/MoneyPrinterV2",
+      "stars": 13019,
+      "lang": "Python",
+      "desc": "Automate the process of making money online."
+    },
+    {
+      "name": "doocs/source-code-hunter",
+      "stars": 23119,
+      "lang": "Java",
+      "desc": "😱 从源码层面，剖析挖掘互联网行业主流技术的底层实现原理，为广大开发者 “提升技术深度” 提供便利。目前开放 Spring 全家桶，Mybatis、Netty、Dubbo 框架，及 Redis、Tomcat 中间件等"
+    }
+  ],
+  "lastUpdated": "2026-02-27",
+  "count": 100
+}
