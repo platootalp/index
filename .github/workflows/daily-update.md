@@ -170,17 +170,31 @@
 
 #### Step 2.1 - 获取当前 Starred 列表
 
+**需要 GitHub Token**: 在 OpenClaw 配置中设置 `GITHUB_TOKEN` 环境变量
+
 ```bash
-# 获取用户 platootalp 所有 starred 仓库（最多 1000 个）
+# 获取 GitHub Token（从环境变量）
+TOKEN="${GITHUB_TOKEN:-}"
+
+if [ -z "$TOKEN" ]; then
+  echo "⚠️ 警告: 未设置 GITHUB_TOKEN，使用未认证请求（限流 60/h）"
+fi
+
+# 获取用户 platootalp 所有 starred 仓库（最多 300 个，避免限流）
 get_starred() {
   page=1
   > /tmp/current-stars.txt
-  while true; do
-    curl -s -H "Authorization: Bearer $TOKEN" \
-      "https://api.github.com/users/platootalp/starred?per_page=100&page=$page" \
-      | jq -r '.[].full_name' >> /tmp/current-stars.txt
+  while [ $page -le 3 ]; do
+    if [ -n "$TOKEN" ]; then
+      curl -s -H "Authorization: Bearer $TOKEN" \
+        "https://api.github.com/users/platootalp/starred?per_page=100&page=$page" \
+        | jq -r '.[].full_name' >> /tmp/current-stars.txt 2>/dev/null || true
+    else
+      curl -s "https://api.github.com/users/platootalp/starred?per_page=100&page=$page" \
+        | jq -r '.[].full_name' >> /tmp/current-stars.txt 2>/dev/null || true
+    fi
     
-    count=$(wc -l < /tmp/current-stars.txt)
+    count=$(wc -l < /tmp/current-stars.txt | tr -d ' ')
     [ $count -lt $((page * 100)) ] && break
     page=$((page + 1))
     sleep 1
