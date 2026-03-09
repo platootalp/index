@@ -71,6 +71,8 @@
 | 19.0k | **openai-agents-python** | OpenAI Agents SDK | [🔗](https://github.com/openai/openai-agents-python) |
 | 17.8k | **adk-python** | Google ADK（Agent 开发套件） | [🔗](https://github.com/google/adk-python) |
 | 8.0k | **spring-ai-alibaba** | 阿里巴巴 Java Agentic AI 框架 | [🔗](https://github.com/alibaba/spring-ai-alibaba) |
+| 1.2k | **spring-ai-alibaba/examples** | Spring AI Alibaba 示例代码 | [🔗](https://github.com/spring-ai-alibaba/examples) |
+| 1.2k | **spring-ai-alibaba/examples** | Spring AI Alibaba 示例代码 | [🔗](https://github.com/spring-ai-alibaba/examples) |
 
 ### 1.2 推理框架与模型部署
 
@@ -82,6 +84,7 @@
 | 69.4k | **vllm** | 高性能 LLM 推理和服务引擎 | [🔗](https://github.com/vllm-project/vllm) |
 | 51.6k | **unsloth** | 快速微调 LLM（提速 2 倍，显存减少 70%） | [🔗](https://github.com/unslothai/unsloth) |
 | 41.5k | **DeepSpeed** | 微软深度学习优化库 | [🔗](https://github.com/deepspeedai/DeepSpeed) |
+| 4.2k | **qlora** | 高效 LLM 微调方法（QLoRA） | [🔗](https://github.com/artidoro/qlora) |
 | 10.8k | **text-generation-inference** | HuggingFace TGI 推理引擎 | [🔗](https://github.com/huggingface/text-generation-inference) |
 
 ### 1.3 Coding-Agent
@@ -96,6 +99,8 @@
 | 48.4k | **everything-claude-code** | Claude Code 资源合集 | [🔗](https://github.com/affaan-m/everything-claude-code) |
 | 32.4k | **oh-my-opencode** | opencode 最佳增强工具 | [🔗](https://github.com/code-yeongyu/oh-my-opencode) |
 | 21.5k | **vibe-kanban** | 让 Claude Code/Codex 效率提升 10 倍 | [🔗](https://github.com/BloopAI/vibe-kanban) |
+| 12.3k | **learn-claude-code** | 从零构建 Claude Code 风格 Agent | [🔗](https://github.com/shareAI-lab/learn-claude-code) |
+| 2.1k | **claude-quickstarts** | Anthropic 官方 Claude 快速入门 | [🔗](https://github.com/anthropics/claude-quickstarts) |
 
 ### 1.4 低代码平台
 
@@ -154,6 +159,7 @@
 | 80.3k | **awesome-mcp-servers** | MCP 服务器精选合集 | [🔗](https://github.com/punkpeye/awesome-mcp-servers) |
 | 78.0k | **servers** | MCP 官方服务器集合 | [🔗](https://github.com/modelcontextprotocol/servers) |
 | 22.6k | **fastmcp** | 快速构建 MCP 服务器（Python） | [🔗](https://github.com/jlowin/fastmcp) |
+| 3.2k | **fastmcp (prefecthq)** | Prefect 官方 MCP 实现 | [🔗](https://github.com/PrefectHQ/fastmcp) |
 
 #### A2A (Agent-to-Agent)
 
@@ -204,6 +210,11 @@
 | 23.2k | **llm-action** | 大模型实战项目集合 | [🔗](https://github.com/liguodongiot/llm-action) |
 | 23.2k | **llm-universe** | 小白开发者的大模型应用开发教程 | [🔗](https://github.com/datawhalechina/llm-universe) |
 | 21.1k | **hello-agents** | Datawhale Agent 开发入门教程 | [🔗](https://github.com/datawhalechina/hello-agents) |
+| 1.8k | **HelloAgents** | Agent 开发入门实践 | [🔗](https://github.com/jjyaoao/HelloAgents) |
+| 1.5k | **langchain4j-examples** | LangChain4j Java Agent 示例 | [🔗](https://github.com/langchain4j/langchain4j-examples) |
+| 0.9k | **agents** | AI Agent 实践与资源 | [🔗](https://github.com/wshobson/agents) |
+| 12.0k | **notebooks** | HuggingFace 官方教程 Notebooks | [🔗](https://github.com/huggingface/notebooks) |
+| 2.3k | **ml-course** | Girafe AI 机器学习课程 | [🔗](https://github.com/girafe-ai/ml-course) |
 
 ### 3.2 书籍与笔记
 
@@ -223,6 +234,8 @@
 | 24.4k | **500-AI-Agents-Projects** | 500 个 AI Agent 项目集合 | [🔗](https://github.com/ashishpatel26/500-AI-Agents-Projects) |
 | 16.3k | **WeClone** | 从聊天记录创建数字分身 | [🔗](https://github.com/xming521/WeClone) |
 | 15.7k | **dexter** | 自主深度金融研究 Agent | [🔗](https://github.com/virattt/dexter) |
+| 1.8k | **Context-Engineering** | 上下文工程研究与实践 | [🔗](https://github.com/davidkimai/Context-Engineering) |
+| 0.5k | **Agent-Skills-for-Context-Engineering** | Context Engineering Agent 技能 | [🔗](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) |
 
 ---
 
@@ -336,6 +349,7 @@
 | - | **claudecn** | Claude 中文社区 | [🔗](https://claudecn.com/) |
 | - | **openclawcn** | OpenClaw 中文社区 | [🔗](https://openclawcn.com/) |
 | - | **github.blog** | GitHub AI/ML 博客 | [🔗](https://github.blog/ai-and-ml/) |
+| - | **anomalyco** | AnomalyCo 开源社区 | [🔗](https://github.com/anomalyco) |
 
 ---
 
@@ -350,13 +364,13 @@
 | 实用资源 | 20 个 |
 | 开发实践 | 6 个 |
 | 其他资源 | 8 个 |
-| **总计** | **115+ 个** |
+| **总计** | **130+ 个** |
 
 > 📰 AI 新闻订阅请查看 [根目录 README](../README.md)
 
 ---
 
-*📅 更新时间: 2026-02-20*
+*📅 更新时间: 2026-03-09*
 
 *⭐ Stars 数据实时获取，按数量倒序排列*
 
